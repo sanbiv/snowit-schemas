@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "module": "commonjs",
+    "outDir": "lib",
+    "declaration": true,
+    "incremental": true,
+    "resolveJsonModule": true,
+    "removeComments": true,
+    "pretty": true,
+    "sourceMap": false,
+    "target": "es6",
+    "allowJs": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": false,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "strict": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "strictBindCallApply": true,
+    "alwaysStrict": true,
+    "experimentalDecorators": false,
+    "baseUrl": "./src",
+    "disableSizeLimit": false,
+    "rootDir": "src",
+    "typeRoots": ["types"],
+    "paths": {
+      "types/*": ["types/*"],
+      "constants/*": ["constants/*"],
+    }
+  },
+  "compileOnSave": true,
+  "include": ["src/**/*"],
+  "exclude": ["test", "src/scripts", "node_modules"]
+}
