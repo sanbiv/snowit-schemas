@@ -2,8 +2,8 @@
   "name": "@snowit/schemas",
   "homepage": "https://snowitexperience.com",
   "version": "0.0.1",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist.index.d.ts",
   "private": true,
   "scripts": {
     "lint": "yarn lint:js && yarn lint:ts",
@@ -27,7 +27,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "yarn build"
+      "pre-commit": "yarn build"
     }
   },
   "devDependencies": {
@@ -57,6 +57,7 @@
     "eslint-plugin-react": "^7.14.2",
     "eslint-plugin-standard": "^4.0.0",
     "husky": "^4.2.3",
+    "moment": "^2.24.0",
     "npm-run-all": "^4.1.3",
     "prettier": "^1.18.2",
     "ts-node-dev": "^1.0.0-pre.41",

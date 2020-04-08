@@ -1,0 +1,1 @@
+export type CouponType = 'SNOWITAPP' | 'EASYWELFARE' | 'FIERA';

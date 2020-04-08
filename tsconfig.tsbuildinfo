@@ -49,17 +49,797 @@
         "version": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303",
         "signature": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303"
       },
-      "./src/constants/prices/index.ts": {
-        "version": "a980b7711e214257474340deca552ba35846e5245b1f65e0b74ff0e909143d62",
-        "signature": "c5d4c5d130534c7123d067423065360b28ca7ef18bed8595206809d6eb145567"
+      "./src/types/cards.ts": {
+        "version": "234b5ae430f63d82c0419ac0ad13f7086a32f0017563380163ad1d8f5fe40e48",
+        "signature": "6aa252af9df3fd9c51707087912546e8c4f77ce8a0745f5baa1f97b6fc827db4"
+      },
+      "./src/types/utils.ts": {
+        "version": "c72c717aa81fa4f9a04e956ac2edfb988cb0e642f60c522e28f81cc8f3b67ab9",
+        "signature": "9c88df79ecb336e4ccab164f7eb8112d7a063841650ec2cfba241cf4b9c8fcd9"
+      },
+      "./src/types/firestore.ts": {
+        "version": "03fad51a5ae1370fbb31d1e42efa2f55e123079a88606cc5a94c3ded97d95b93",
+        "signature": "238eaa4e73e747ea887a3210bb3869f8c49b173f98c594d23d15982eaefc54ef"
+      },
+      "./node_modules/moment/moment.d.ts": {
+        "version": "d62fa6fe33566fa743b3d6715a1a2fe46e937ba9d2ba158563c5744315d438a7",
+        "signature": "d62fa6fe33566fa743b3d6715a1a2fe46e937ba9d2ba158563c5744315d438a7"
+      },
+      "./src/types/datetimes.ts": {
+        "version": "ba522999a5b4265e3d89558136f840b2e1dbc90450e62ad0b1a2a8c7b10269f3",
+        "signature": "c51ff3a16d0ef2a8adfea97f8bcae83718c6f22c65b7bf6eadc5fd5c7f446b97"
+      },
+      "./src/types/providers.ts": {
+        "version": "c6e20523fd9df94bbf7e605ff907d67c37daa33c9ddc9ee1fac6e92185a55065",
+        "signature": "630ceec0714fa07a2d3dd649e4e2dd143767cd47a460d316b6e3cd086d76719c"
       },
       "./src/types/products.ts": {
-        "version": "e448021336d78b4d29957d85fd0784e40fcf6efe4702162463aac81fcd1e0890",
-        "signature": "f7e14e3d31a681ee01336c509d56f14826861b0914ba21b230157fa1db83436b"
+        "version": "2c1d748fd5eb75bf0e85e4b99e4549e51f2c80d5e9449a324dfeda587737b4fb",
+        "signature": "7de2bccb57db98f3506f3b36d18c977683b7e3352f9d24039134d2486108cf60"
       },
-      "./src/constants/products/index.ts": {
-        "version": "e4c9dcdb75ff24927c2d2a468a313da8f60761be39b3c62af2a33e117d64b069",
-        "signature": "e5672ad9f8ab053f1e55eb21d837998c15786870f1f41ef8b14ec18bcda00232"
+      "./src/types/cart.ts": {
+        "version": "c7fa680c2cc6db7a0ebbe159ce3a7ecd1020cb92699b2b8626c708b18e2ebc20",
+        "signature": "994ca5e025c4160892de8e6c23c1b4719bdd794b6d247617d36ef6b3188bdf57"
+      },
+      "./src/types/coupons.ts": {
+        "version": "775d69c642ae72f90b2d4b290e4b2ef17fca5d413e8743842d4ecd593964e336",
+        "signature": "673e12c42729c4799dbefc3d5fd1c9e39ae3f7ca407faa48bee9df102e20eeea"
+      },
+      "./src/types/sessions.ts": {
+        "version": "3fb9f3070921a3dbd952c83942738c10e1b1f105e27e49cda4eb1c3ef57927ca",
+        "signature": "b996e53aa9a4a9da28a39f12b9fdd5d645d61a6d29a301b553133d89189f709c"
+      },
+      "./src/types/users.ts": {
+        "version": "8f954d0bd89363778d55784dab34f024389c3e918f8d8d6da839d3356755b499",
+        "signature": "9a66ae2c55dffd80416e5893410367836bf030b5a527ed6fe84777240731b432"
+      },
+      "./src/types/index.ts": {
+        "version": "f928132b9d51031d2b9d15949fb2bd80335abe4e82b7d330c7027eac6036bfaf",
+        "signature": "c51debc8bcd33033749de66989db50dacb94b531a7c343689313473d697fc952"
+      },
+      "./src/constants/cards.ts": {
+        "version": "27485ee61e0b9694d9d7817ce0c58af6276445c75480f4e4389f8df73342abfe",
+        "signature": "1a9bab63da9618be0dcb0109ea5665ce0a07d58b59dec3f92465dab3b597dd1e"
+      },
+      "./src/constants/coupons.ts": {
+        "version": "08c19b8a3dc026a00c3121fed7819ebc99160df900d3ff8f3ef546c467b19be0",
+        "signature": "7f0e3873a20f5b044ba10903c16eae1a15a36606d6c2479861d02d581c37b320"
+      },
+      "./src/constants/datetimes.ts": {
+        "version": "8df2577375a3e5e08b823dc52a974d4157fd0613e50f08a4aaac433313b1cd2b",
+        "signature": "3f23268e99e719e1842a8ea9d846948eee848a2f140b546c93ce3290adf07318"
+      },
+      "./src/constants/firestore.ts": {
+        "version": "5724224b176142ddd245bc1a488ea5b21dcfcf363ce568a087d641379e210e10",
+        "signature": "8b0c30790a8f91d55a4abcad63ecb985793c4a56fc8ba6edb7d35c0e0435fdfe"
+      },
+      "./src/constants/products.ts": {
+        "version": "a1215a56645e5c6a6ddbd26edea1473ac9dcd825522340408caabf9ff8337969",
+        "signature": "f664f6c96a0fdd0122da8b5171641c7ea0456daca5aec3f94acb6f9ae5ae382b"
+      },
+      "./src/constants/providers.ts": {
+        "version": "7e0e25a968c7bfd7744ac540d8666bb066eeed8d9cefcacc9829e0aeaf9201b2",
+        "signature": "98bebb0e76f480da0f585ddcb008ab1040b9356743f2e2de190b9aa6e5f7d18a"
+      },
+      "./src/constants/sessions.ts": {
+        "version": "609d826b57f19ebfd67e98aaaf5b3972fdda70c9b471259d5be3e1209cf92828",
+        "signature": "acd229652dc38582beed27fa08c27084173411c0410f5060be3e89a50413a72b"
+      },
+      "./src/constants/index.ts": {
+        "version": "1eaae38f7049ee719d2c01050db99f29ef1baf59dc587e599ddffff7131332d5",
+        "signature": "f8c40fb3d3b850ccd4100fd2fa401932fae46b66951dc980dbbea2eca1198cf9"
+      },
+      "./src/index.ts": {
+        "version": "5af9aea929b16ace95c4719f82ede9a6192b8aa9afd4f355138aa74cc9e22dbf",
+        "signature": "38f184c0c1b21d606f3d686a4e51e7827c214fe974ad7af69da91edcd3ba5eb0"
+      },
+      "./node_modules/@types/lodash/ts3.1/common/common.d.ts": {
+        "version": "4025cf62742c5bb3d383c8a62342481622c87e3397ea5e7b7baab18b9efd5798",
+        "signature": "4025cf62742c5bb3d383c8a62342481622c87e3397ea5e7b7baab18b9efd5798"
+      },
+      "./node_modules/@types/lodash/ts3.1/common/array.d.ts": {
+        "version": "c21830111d49a5cd7a9f384370db5b41c659d045fe920bcac1cc9f507c88125d",
+        "signature": "c21830111d49a5cd7a9f384370db5b41c659d045fe920bcac1cc9f507c88125d"
+      },
+      "./node_modules/@types/lodash/ts3.1/common/collection.d.ts": {
+        "version": "0c75b204aed9cf6ff1c7b4bed87a3ece0d9d6fc857a6350c0c95ed0c38c814e8",
+        "signature": "0c75b204aed9cf6ff1c7b4bed87a3ece0d9d6fc857a6350c0c95ed0c38c814e8"
+      },
+      "./node_modules/@types/lodash/ts3.1/common/date.d.ts": {
+        "version": "187119ff4f9553676a884e296089e131e8cc01691c546273b1d0089c3533ce42",
+        "signature": "187119ff4f9553676a884e296089e131e8cc01691c546273b1d0089c3533ce42"
+      },
+      "./node_modules/@types/lodash/ts3.1/common/function.d.ts": {
+        "version": "035b95793288bf4457a2b80bfe9b7500a29324ad62adcf9991277198e8833096",
+        "signature": "035b95793288bf4457a2b80bfe9b7500a29324ad62adcf9991277198e8833096"
+      },
+      "./node_modules/@types/lodash/ts3.1/common/lang.d.ts": {
+        "version": "c2d47e5668f89ed8768d306919c42bb88d50d4029d68f58343141360895cfcc0",
+        "signature": "c2d47e5668f89ed8768d306919c42bb88d50d4029d68f58343141360895cfcc0"
+      },
+      "./node_modules/@types/lodash/ts3.1/common/math.d.ts": {
+        "version": "65648639567d214f62c1b21d200c852807e68bdb08311f95ab6f526ef5b98995",
+        "signature": "65648639567d214f62c1b21d200c852807e68bdb08311f95ab6f526ef5b98995"
+      },
+      "./node_modules/@types/lodash/ts3.1/common/number.d.ts": {
+        "version": "00baffbe8a2f2e4875367479489b5d43b5fc1429ecb4a4cc98cfc3009095f52a",
+        "signature": "00baffbe8a2f2e4875367479489b5d43b5fc1429ecb4a4cc98cfc3009095f52a"
+      },
+      "./node_modules/@types/lodash/ts3.1/common/object.d.ts": {
+        "version": "7fc5a3d7cff296cea5c225911726a56283b663328709088fcc912d61f73682fc",
+        "signature": "7fc5a3d7cff296cea5c225911726a56283b663328709088fcc912d61f73682fc"
+      },
+      "./node_modules/@types/lodash/ts3.1/common/seq.d.ts": {
+        "version": "3c92b6dfd43cc1c2485d9eba5ff0b74a19bb8725b692773ef1d66dac48cda4bd",
+        "signature": "3c92b6dfd43cc1c2485d9eba5ff0b74a19bb8725b692773ef1d66dac48cda4bd"
+      },
+      "./node_modules/@types/lodash/ts3.1/common/string.d.ts": {
+        "version": "e34f3f6159b1e23de9bb5521382795aaa5aaed6f53b4702e70a2ec45bc76ddb5",
+        "signature": "e34f3f6159b1e23de9bb5521382795aaa5aaed6f53b4702e70a2ec45bc76ddb5"
+      },
+      "./node_modules/@types/lodash/ts3.1/common/util.d.ts": {
+        "version": "2630a7cbb597e85d713b7ef47f2946d4280d3d4c02733282770741d40672b1a5",
+        "signature": "2630a7cbb597e85d713b7ef47f2946d4280d3d4c02733282770741d40672b1a5"
+      },
+      "./node_modules/@types/lodash/ts3.1/index.d.ts": {
+        "version": "bbf144d4354e2aaa6439f32761f3ee798cc68d1600adab6e2a596f25269f106d",
+        "signature": "bbf144d4354e2aaa6439f32761f3ee798cc68d1600adab6e2a596f25269f106d"
+      },
+      "./src/schemas/_definitions/fulldate.js": {
+        "version": "6604b3ef418cd59f5aa295c37a5b2f5be2ee07ae0f9c20761702a164d10d5807",
+        "signature": "237608148b80a280606588474bd2bc9bc3fcbbe338a86ef2558e8c607e241328"
+      },
+      "./src/schemas/cards/constants.js": {
+        "version": "62c5fa1b615b770fff32cc089777995f61f98f515b4ab4c86f25e74a7955e3f0",
+        "signature": "de712f60478e37397738c8084a7d1b943294a822230e45e64cf0f8d3fef62671"
+      },
+      "./src/schemas/cards/_definitions.js": {
+        "version": "32d459b75eda9f8f2a47420c44c4e85c964dc2384ed0566dd71793d537c24e33",
+        "signature": "f6f712508b22b569884745852fbaeaaa72b1e5031ec7c8d625b4fd9a89b3c74e"
+      },
+      "./src/schemas/cards/dbtoform.js": {
+        "version": "4061573bb05dddf906b69c28f5e11d5939ca47858657d57e3b5739ababdf7412",
+        "signature": "9f42533e8f522dede9cf3f22cff25d03ce35f37d39f36ac3809b0ca1b8e840d6"
+      },
+      "./src/schemas/cards/schema.js": {
+        "version": "5019d30991205853751a7ca3bb978591f4dfe0f89ddd7d956a2a1c50f0227abe",
+        "signature": "1a54aacf4f72a09e425297c1453d5b75b2276fd754425d01ed076daa09ed18eb"
+      },
+      "./src/schemas/cards/formtodb.js": {
+        "version": "d86778c9b82824d5bb5bf8bcd6d7ea78b065a97e933785e8cd3b33bfcd7a3f98",
+        "signature": "6e555e5fc57417b331206fd1e76c4d297a925237cac44dd628bd76145dd6d30c"
+      },
+      "./src/schemas/cards/uischema.js": {
+        "version": "2015f28995200bdb8a254331596cec0b0f72144cac293ca351efa66a28e76ff6",
+        "signature": "2f60a4ded8a4f8ffeb8bbaddd35298c1ed94323f5841b806136a21e9151e34c6"
+      },
+      "./src/schemas/cards/assigncard/schema.js": {
+        "version": "8b6603acd10ff518785bbd27534c1871acc3937ee64c7d4c56745022004fae90",
+        "signature": "db23c2aeebe5fa3baaf074c642f3d857c8fd12dfccfbacc2c02265960863a398"
+      },
+      "./src/schemas/cards/assigncard/uischema.js": {
+        "version": "6a1bec86ae41f15dbf4628548221d9c514e18c4ae22ccc614a0ac347d8955dbc",
+        "signature": "2289af981946d2f7f11ec5ef2d5dc04a234ac2ad0b538eac162e2f930232db8e"
+      },
+      "./src/schemas/cards/index.js": {
+        "version": "1dde35f32daca04b657a2cceb47206d6d46c1a474b53142d5fb81f09b0a76504",
+        "signature": "99b06edb1934c1d0af764d17289a0eae78bcda7a253297299b2ad08399dae18a"
+      },
+      "./node_modules/@types/lodash/ts3.1/zipobject.d.ts": {
+        "version": "8bb67fde708609f1e95b4a070907b34830171ff304d3c202c5085884c4fd63d9",
+        "signature": "8bb67fde708609f1e95b4a070907b34830171ff304d3c202c5085884c4fd63d9"
+      },
+      "./src/schemas/categories/constants.js": {
+        "version": "b52fc40576aaecd48aa683a930d4f1637797a3860f06c7cc244ca9a5afa18fb6",
+        "signature": "1282ca86bf2407d855d24907e4038f55be391e2eb2c6a4a905f98fe13e85b7d1"
+      },
+      "./src/schemas/widgets/tenants.js": {
+        "version": "3f42383285e5616fdf2acf365a19f6e2e992531a7818d94c163b5ea66354c84e",
+        "signature": "c155edc8d7a2fba572e444aad32eaff61e43ae447630265230c673f42a2c4dd3"
+      },
+      "./src/schemas/categories/schema.js": {
+        "version": "9d01b900f73b5286c60866e445cfa8159841e9f6a69e9261ac9a84e90228d264",
+        "signature": "e0392e87f5299e66bf6a3508c36061f7a5d25cebe353c6f561b36a92b5d32083"
+      },
+      "./src/schemas/categories/uischema.js": {
+        "version": "80f9c17617c265539130ac788bbe7c765453fdde3a5e13166f067e91b5c5b295",
+        "signature": "78929ee6115b9881eb41201e79704842574fa047a98ec0ac82a7ef4504c839b9"
+      },
+      "./src/schemas/categories/index.js": {
+        "version": "1ee83e91e968442ac845d119775bcccaafb2865f1c29d940f648de80a26bf423",
+        "signature": "990725b60d36a2279f5545664c5e6fff41e46603ffa1726a489d5e3dc5fac008"
+      },
+      "./src/schemas/challenges/_definitions.js": {
+        "version": "8d5db7054947791848fc971120976cf5189d0e7662af7280a94648e801a531b5",
+        "signature": "b4c82919d34bcf5613b31ee826901fca757bb6f93edbc84cfaa4e85b26ba95fb"
+      },
+      "./src/schemas/challenges/types.js": {
+        "version": "812ab3ac709182c381e5ec0319f6bc83282f8cce30ff34c846b53b04fa55949f",
+        "signature": "397cffc3d6972585c84f49cfea9e34ec676a07d16ccefa2cf8ebebf2cb15694f"
+      },
+      "./src/schemas/challenges/schema.js": {
+        "version": "a340fbfde29b26d80ff306e96b7be55f367fac96ee973599c74ae2e87b150714",
+        "signature": "c1998395bbeac6119931f07c653cde9878e8dc4b4138fd2f94cf165bd46e6f0b"
+      },
+      "./src/schemas/challenges/uischema.js": {
+        "version": "b97e49d931df1fb53bd085e9ae8d3ada35596fdb039d68f5e5ae0b46fbaf2ab5",
+        "signature": "55ddd4ac387befe4de7f6049e41473fd03d22275025232a1895ae7f0f7067a56"
+      },
+      "./src/schemas/challenges/index.js": {
+        "version": "1ee83e91e968442ac845d119775bcccaafb2865f1c29d940f648de80a26bf423",
+        "signature": "990725b60d36a2279f5545664c5e6fff41e46603ffa1726a489d5e3dc5fac008"
+      },
+      "./node_modules/@types/lodash/ts3.1/reduce.d.ts": {
+        "version": "011041890a1f073bd0c6342a7493a0be0d1d03c9263879d5467d75d32c4a6790",
+        "signature": "011041890a1f073bd0c6342a7493a0be0d1d03c9263879d5467d75d32c4a6790"
+      },
+      "./src/schemas/coupons/types.js": {
+        "version": "8f9450608bb9dc36a1a24c9d9233eed67f5fdc0f9a11faca123be31056781258",
+        "signature": "ae9ea5026a835359868fc334c1c2c86a4e2f097c10fe90a2dbf6c0c644758091"
+      },
+      "./node_modules/@types/lodash/ts3.1/range.d.ts": {
+        "version": "9b58c2cbd15e7c2c5ccd13f983fa2ef06c8c32724787b1f5bf1642129a0ac3c2",
+        "signature": "9b58c2cbd15e7c2c5ccd13f983fa2ef06c8c32724787b1f5bf1642129a0ac3c2"
+      },
+      "./node_modules/@types/lodash/ts3.1/map.d.ts": {
+        "version": "358f446f12b83686fb181929575e5269c820bd9a9dbc3bea60c8407d0cddaa8e",
+        "signature": "358f446f12b83686fb181929575e5269c820bd9a9dbc3bea60c8407d0cddaa8e"
+      },
+      "./node_modules/@types/lodash/ts3.1/without.d.ts": {
+        "version": "fe20a544c8bfd783fd6ac1a9c0e6aed345190ee85c0fc90376ed6e89bb48287f",
+        "signature": "fe20a544c8bfd783fd6ac1a9c0e6aed345190ee85c0fc90376ed6e89bb48287f"
+      },
+      "./src/schemas/products/constants.js": {
+        "version": "7c092f238baa2a55ccd186bb9f510ab6dba37b0771cea5669fc02a34d56b33e8",
+        "signature": "d88edd4b2173e2f99b41a96284a14bb1d7d2751e0633c86a403ae97d18785ddf"
+      },
+      "./src/schemas/coupons/schema.js": {
+        "version": "eda2bc55c7fe24c8f380d3c21b43e48255eb9bd7d41a88196fe846bad23ef290",
+        "signature": "d4782561f83b51a0d94b83df7305a6aac1590fdac675ede50ff019bdac77c94c"
+      },
+      "./src/schemas/coupons/uischema.js": {
+        "version": "f18d20333f9f96e904775e11bb88bba9000fb4c38b150d812acf2af69594b485",
+        "signature": "ca40321df1da87ecf0536b35c161b2bb4fa62bac97981081a204478bc2ce14f6"
+      },
+      "./src/schemas/coupons/index.js": {
+        "version": "1ee83e91e968442ac845d119775bcccaafb2865f1c29d940f648de80a26bf423",
+        "signature": "990725b60d36a2279f5545664c5e6fff41e46603ffa1726a489d5e3dc5fac008"
+      },
+      "./src/schemas/coupons/batchmaking/schema.js": {
+        "version": "b30bd88ed27e59e4b36a3b3be295e1b5291c49a6a071eeca6dbd70092e337f02",
+        "signature": "3f1b224d7bfb4e98bbc2f9e4646faae6f19b9557bc067addf09a246e463d2e90"
+      },
+      "./src/schemas/coupons/batchmaking/uischema.js": {
+        "version": "60a21248b431100ab0819d837021d0cb892e3d7123fe487d43d376d17d04c36d",
+        "signature": "16b81df598ffb0ac4a542c4c787892ef7d0d5970f851f76775e46e7a93501404"
+      },
+      "./src/schemas/coupons/batchmaking/index.js": {
+        "version": "0e15b5ba152a83086a7c3609249bc6278a4cfe6dbe633766f64f5b0eb2e73be6",
+        "signature": "990725b60d36a2279f5545664c5e6fff41e46603ffa1726a489d5e3dc5fac008"
+      },
+      "./src/schemas/coupons/import/schema.js": {
+        "version": "e3f10e9084decd83728316002e48490f9ee9efefd87158f69d1feaa03bcfb944",
+        "signature": "5da0c62f8e3d7b73c2c43a9b9a8208c3e27e4e04112bbb719b5138ded117efd0"
+      },
+      "./src/schemas/coupons/import/uischema.js": {
+        "version": "f24cb61150c2c89022dbcf60fcc1956c7babc7bd5405749dc0c0f42f490bec60",
+        "signature": "8838aebfedda2f353a25323ed7da77e9003efe94c04b0fdbebd6ba31d7cea272"
+      },
+      "./src/schemas/coupons/import/index.js": {
+        "version": "864ff8d9eda4424f841ea6eeac8ba46863626b69f90870e3d14fd9033b5dcf40",
+        "signature": "26c0c19aa24f1788de4cf0bff0236c07bb24aad7592179c7423aa2ecce0ecbe6"
+      },
+      "./src/schemas/dealerorders/schema.js": {
+        "version": "a4091ae315e8dbebf8bda8df7d8a33d025b157b1826e392488630c888795d173",
+        "signature": "fbe10322df2e4ce9353e70d686a0d79cdc8082dcdb31ad43567672aab0b52f9c"
+      },
+      "./src/schemas/dealerorders/uischema.js": {
+        "version": "352dacb55a085214f2aa7bac32d94870182bc7fc562aa0b50a5db84ff10e7423",
+        "signature": "2eff314bce56027ed2c0944e9faa2ef102ef264931d79c769ec3da9925af21fd"
+      },
+      "./src/schemas/dealerorders/index.js": {
+        "version": "1ee83e91e968442ac845d119775bcccaafb2865f1c29d940f648de80a26bf423",
+        "signature": "990725b60d36a2279f5545664c5e6fff41e46603ffa1726a489d5e3dc5fac008"
+      },
+      "./node_modules/@types/lodash/ts3.1/keys.d.ts": {
+        "version": "ee4c747ce694490b0b31dcecf752211e41160814c96c35e522e77272a68ba38c",
+        "signature": "ee4c747ce694490b0b31dcecf752211e41160814c96c35e522e77272a68ba38c"
+      },
+      "./src/schemas/discounts/types.js": {
+        "version": "b2cd8900ffff40a620f4297c05b0e5192f049e89836af425a59573eaaa0c72f6",
+        "signature": "46959c145b232b311e7f4889315f005cb726b1a458204405a88d96533eadaf2b"
+      },
+      "./node_modules/@types/lodash/ts3.1/isobject.d.ts": {
+        "version": "08906ca4df290e78211120ae722953b460e978096c01ab2d42a682088fd1203e",
+        "signature": "08906ca4df290e78211120ae722953b460e978096c01ab2d42a682088fd1203e"
+      },
+      "./node_modules/@types/lodash/ts3.1/isfunction.d.ts": {
+        "version": "03e7fca89f2fb850d2da94a421c8c0f1d3cd8236f0725e538ca412e8eb35e86b",
+        "signature": "03e7fca89f2fb850d2da94a421c8c0f1d3cd8236f0725e538ca412e8eb35e86b"
+      },
+      "./node_modules/@types/lodash/ts3.1/isstring.d.ts": {
+        "version": "d6f46220d383fb0fd842186b0106c3e3c5b65c7d67a9f45a359ddc6721e22622",
+        "signature": "d6f46220d383fb0fd842186b0106c3e3c5b65c7d67a9f45a359ddc6721e22622"
+      },
+      "./src/schemas/products/types/index.js": {
+        "version": "e34d036cd6231b8d73bcb276c883f98252468cc16fc2d2b874892834161da2b8",
+        "signature": "351f2522b59a983e2ac37f520d1d20c39bb9bd90f6d6a8807f2d0baebe728b22"
+      },
+      "./src/schemas/discounts/schema.js": {
+        "version": "aace044906d2fee3b7b7ba334e021f326b1c2fd66274f4c8b19cc7f5cc0b7e32",
+        "signature": "e0392e87f5299e66bf6a3508c36061f7a5d25cebe353c6f561b36a92b5d32083"
+      },
+      "./node_modules/@types/lodash/ts3.1/chunk.d.ts": {
+        "version": "00cef9c6e0a0221917ad8e447f1cfef6e46a99e11114705ce9c67c59272ab00c",
+        "signature": "00cef9c6e0a0221917ad8e447f1cfef6e46a99e11114705ce9c67c59272ab00c"
+      },
+      "./src/schemas/discounts/uischema.js": {
+        "version": "833b3a54d2a0e1ff4e8688be40d375c6c044ecb4f4d6e3ef6f599f19ec48b3b7",
+        "signature": "35674dbd2ae4e97579f4baa2240f4fbbda7cdcfaa5a9a9ec44f033ec06adaedd"
+      },
+      "./src/schemas/discounts/index.js": {
+        "version": "1ee83e91e968442ac845d119775bcccaafb2865f1c29d940f648de80a26bf423",
+        "signature": "990725b60d36a2279f5545664c5e6fff41e46603ffa1726a489d5e3dc5fac008"
+      },
+      "./src/schemas/discounts/import/schema.js": {
+        "version": "4972cdea7ec7b5dc6c72f39d9227718b71497b5e5871cbd1902f5281c52a1b92",
+        "signature": "6dcf42e9105f2f9806dded20c6f071954e5ebf0137c6bd11c72d56d8ec4a0fd0"
+      },
+      "./src/schemas/discounts/import/uischema.js": {
+        "version": "938ffefc508a16049f49a4a0b644dce0ef193b650d46ddda143742454f697213",
+        "signature": "46f9617a050969717a906862ef1afe98c8e87eacc7cf3bd69d0fdfd303533574"
+      },
+      "./src/schemas/discounts/import/index.js": {
+        "version": "0e15b5ba152a83086a7c3609249bc6278a4cfe6dbe633766f64f5b0eb2e73be6",
+        "signature": "990725b60d36a2279f5545664c5e6fff41e46603ffa1726a489d5e3dc5fac008"
+      },
+      "./src/schemas/districtpaymentdata/schema.js": {
+        "version": "37ec8f2bce45663cbfb0e4d1ea024037c998b6d964fa9b594e264731fd5ce5c7",
+        "signature": "c67d3bd0b1ab7e8267974033e1ed557785b6cc87f74a8750a30faf31e6f22a5e"
+      },
+      "./src/schemas/districtpaymentdata/uischema.js": {
+        "version": "b36747fb6ab2abd53c24082aa6748d640a30a5cac449041e9119e7a2341f9eea",
+        "signature": "7a8f0c0117664745e3dcca906af17f822a5f1d1fc4e499a4e55e339860ac9aee"
+      },
+      "./src/schemas/districtpaymentdata/index.js": {
+        "version": "1ee83e91e968442ac845d119775bcccaafb2865f1c29d940f648de80a26bf423",
+        "signature": "990725b60d36a2279f5545664c5e6fff41e46603ffa1726a489d5e3dc5fac008"
+      },
+      "./src/schemas/districts/schema.js": {
+        "version": "75786302e510ac93ad222a076afdd3b35e93bbb03a1680567de864930f341792",
+        "signature": "e5f90995bc4dbf27b1f801bc6b50569da484fc45e1d5b8ec63a3548fdaeee23c"
+      },
+      "./src/schemas/districts/uischema.js": {
+        "version": "3031a5bd1384a79f0277249e6173b8df878757c5d33122584c5f42702ff6e9ca",
+        "signature": "e1c1689b0462c871facff6542de770e9c8cdff13810db0aa81e76c499ee9c643"
+      },
+      "./src/schemas/districts/index.js": {
+        "version": "1ee83e91e968442ac845d119775bcccaafb2865f1c29d940f648de80a26bf423",
+        "signature": "990725b60d36a2279f5545664c5e6fff41e46603ffa1726a489d5e3dc5fac008"
+      },
+      "./src/schemas/districts/utils.js": {
+        "version": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "signature": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "./src/schemas/districts/zones/schema.js": {
+        "version": "f3c47e94c33e4f495e820cfa839c3053065fdc53489ede1b5b3df7d9b869f83a",
+        "signature": "d8286e7c6307d6eab7f865a8634891846e3159280a8d5d7250d46e2ae8677aee"
+      },
+      "./src/schemas/districts/zones/uischema.js": {
+        "version": "92d08f6900d2fcd2c9d8cf57faec3e20d0e81ba8c28c53196ea66c823a95767a",
+        "signature": "ab16ed40069affb2cc489a7c6dabace77099150076c16058396a23f1a1653bd1"
+      },
+      "./src/schemas/districts/zones/index.js": {
+        "version": "1ee83e91e968442ac845d119775bcccaafb2865f1c29d940f648de80a26bf423",
+        "signature": "990725b60d36a2279f5545664c5e6fff41e46603ffa1726a489d5e3dc5fac008"
+      },
+      "./src/schemas/orders/schema.js": {
+        "version": "0f50410e554d036bfa3bab0f39beda6a154952d999b07addaeeddb3633a7f229",
+        "signature": "32f020fcc81fb2895e326c554a8e768136a93ecb58c848e090a5f163875b32a8"
+      },
+      "./src/schemas/orders/uischema.js": {
+        "version": "27dd1faf740ecbfd15be51d4e1006227a4489b21c258000fe6b1887d7e6cde1b",
+        "signature": "7a8f0c0117664745e3dcca906af17f822a5f1d1fc4e499a4e55e339860ac9aee"
+      },
+      "./src/schemas/orders/index.js": {
+        "version": "1ee83e91e968442ac845d119775bcccaafb2865f1c29d940f648de80a26bf423",
+        "signature": "990725b60d36a2279f5545664c5e6fff41e46603ffa1726a489d5e3dc5fac008"
+      },
+      "./src/schemas/orders/status.js": {
+        "version": "156c7fa3402befb46a383019f74b590b740113bcac10723a9306f6df18110cf1",
+        "signature": "289cdf606babfa63cafc60080d57f382f29da99251d9347e79751882f636d89a"
+      },
+      "./node_modules/@types/lodash/ts3.1/first.d.ts": {
+        "version": "68385da1d9b34edb8aaf47dcb980c798b35621314c73fe8c1572b16578856557",
+        "signature": "68385da1d9b34edb8aaf47dcb980c798b35621314c73fe8c1572b16578856557"
+      },
+      "./src/schemas/orders/bookings/schema.js": {
+        "version": "d7822b3de370ac04afe27e5704672b798c98875e13c6908e1a484c7129c83312",
+        "signature": "955faaace655f2af03fdcf7c75f5fd1351db1fdfa4bbf60e9f228d66b576e05b"
+      },
+      "./src/schemas/orders/bookings/uischema.js": {
+        "version": "adc56f0163c96055f33885179aed90e7d91c369f96d2eba14c4a7793102b5fde",
+        "signature": "4c0857a8907ad798d667d197b34e03d575db071e878b48ac88669c1746db3e38"
+      },
+      "./src/schemas/orders/bookings/index.js": {
+        "version": "1ee83e91e968442ac845d119775bcccaafb2865f1c29d940f648de80a26bf423",
+        "signature": "990725b60d36a2279f5545664c5e6fff41e46603ffa1726a489d5e3dc5fac008"
+      },
+      "./src/schemas/orders/export/index.js": {
+        "version": "4b150185ef69bacbae0efc0749de11a4fb513b9c9eaedc9e7c9066cde718308a",
+        "signature": "2f59eb197226084114f7da788836f6e56fa7ed7cc3ad2da510e778d02c9d2b20"
+      },
+      "./src/schemas/shared/countries.js": {
+        "version": "d7de39ff48a07b2af455fbfb024eb6480ed20077645ebb4712553d5f4cf15fef",
+        "signature": "ee6df9134514ae705d49af0ef095777a7c0842f2aa17b945b248b22617cf71e7"
+      },
+      "./src/schemas/partnerstripe/_definitions.js": {
+        "version": "d8ff7f71df9d41f43ef51af4c4ad08afef43c5f88d81737d1edafc3356ed602a",
+        "signature": "fa0d037395fc6bbcc58fd9d357ed0a8a27be076e6a911a4b561eab763ed0fbd7"
+      },
+      "./src/schemas/partnerstripe/schema.js": {
+        "version": "bc864242b9cdda229f34d11dae5b11a4eb45b509910c1d7e4a973cc17eb90772",
+        "signature": "2adaa3926e74c5ab17073d9caf7bde6b9e80c42b59e2ceb63414436d0772fac0"
+      },
+      "./src/schemas/partnerstripe/uischema.js": {
+        "version": "f52ad303d5327fc137fd6fb7fd03916557384796de435fddb7a381b3e24d49d2",
+        "signature": "166a0a3d384add1b9b56e6d58e2653ece2c1c77809abbbde51b01019db16749a"
+      },
+      "./src/schemas/partnerstripe/uischemapaymentonly.js": {
+        "version": "b36747fb6ab2abd53c24082aa6748d640a30a5cac449041e9119e7a2341f9eea",
+        "signature": "7a8f0c0117664745e3dcca906af17f822a5f1d1fc4e499a4e55e339860ac9aee"
+      },
+      "./src/schemas/partnerstripe/uischemadocuments.js": {
+        "version": "d16ae68778f26009c009406ccc7ee18883fbe685562fd8effc59de5fdb0f6d5d",
+        "signature": "a36c26c6df8256b6d695d1bec89ade3c801c4530f8e1f35507e16908443db1ee"
+      },
+      "./src/schemas/partnerstripe/index.js": {
+        "version": "f205b9cfeda19c5e771d9ba819b93982698b8eee2f9ba685880898c943da0660",
+        "signature": "da8444ca43f8af35aa8e91fe49cc5c5e003c0c07f1ee6cf773c450ca25e4889e"
+      },
+      "./src/schemas/partners/constants.js": {
+        "version": "f69dd823d2f33d88f779542df64151ed1d1268e0f6df93ddbabe5c684d48fec8",
+        "signature": "affa37ff96d55eb8c0d40aed5715448fad18caf0c18213c930ad9f7c6140cecb"
+      },
+      "./src/schemas/partners/types.js": {
+        "version": "a547642ce8812af362c9e06d72f0307b5beb84fde82d69fa0949b60718338c82",
+        "signature": "1b0790b44f5fe0ded734f09e4ab380b016d319a327f09a029021c22b6264e9d0"
+      },
+      "./src/schemas/partners/schema.js": {
+        "version": "1b37aaad736ae40da642b4ae168a9292a2350021623a7b09d50730ea7bdfed38",
+        "signature": "ddee76dd0fd952ee440125172ed2a15abcc73e997619b4deb0cb1f9e3c134b81"
+      },
+      "./src/schemas/partners/uischema.js": {
+        "version": "923578c27ef28cf150ea65412aa9df1dcae4df27c3dafb82b78ea595430a0a7e",
+        "signature": "78929ee6115b9881eb41201e79704842574fa047a98ec0ac82a7ef4504c839b9"
+      },
+      "./src/schemas/partners/index.js": {
+        "version": "1ee83e91e968442ac845d119775bcccaafb2865f1c29d940f648de80a26bf423",
+        "signature": "990725b60d36a2279f5545664c5e6fff41e46603ffa1726a489d5e3dc5fac008"
+      },
+      "./node_modules/@types/lodash/ts3.1/values.d.ts": {
+        "version": "851ad782f23bf03c2ea4a5670d7a96d99ae360ede37cb82f090d6e7cb398d62c",
+        "signature": "851ad782f23bf03c2ea4a5670d7a96d99ae360ede37cb82f090d6e7cb398d62c"
+      },
+      "./src/schemas/partners/venues/types.js": {
+        "version": "a7c772fd7f099de49528396a6b3646e4ce931f422ae65bd59b8b479a225b2a5d",
+        "signature": "be37a66e638cb8498f1b25733aec25b76b2a3ade55ecfaa8f07938e79e34c557"
+      },
+      "./src/schemas/partners/venues/schema.js": {
+        "version": "dc4bff43ad4fc1aff453efd987ca0caf0b4bc9dc5d2e0560040ad0b9994e4b31",
+        "signature": "058f066a7ca940d9526fe366fd75f758d00bd9cd46122a52fc77d69be4153909"
+      },
+      "./src/schemas/partners/venues/uischema.js": {
+        "version": "de8d22aa4099d3140e212cced3136dd0d8d55dfad58a43d2c956b8fde2648a78",
+        "signature": "78929ee6115b9881eb41201e79704842574fa047a98ec0ac82a7ef4504c839b9"
+      },
+      "./src/schemas/partners/venues/index.js": {
+        "version": "1ee83e91e968442ac845d119775bcccaafb2865f1c29d940f648de80a26bf423",
+        "signature": "990725b60d36a2279f5545664c5e6fff41e46603ffa1726a489d5e3dc5fac008"
+      },
+      "./src/schemas/products/types/_common/_definitions.js": {
+        "version": "a934a979dff515fb47a06b1689bed84d8296b5ead4665a52b20be7b633ee3247",
+        "signature": "c33d54aa81c2107ee305029b5c30d36fb4e133115d77a17b3df2376a19e9a2d2"
+      },
+      "./node_modules/@types/lodash/ts3.1/each.d.ts": {
+        "version": "7c812d6df67071ed61aea4e2f0ee77471855934dbf61b854ed061eb948b429bb",
+        "signature": "7c812d6df67071ed61aea4e2f0ee77471855934dbf61b854ed061eb948b429bb"
+      },
+      "./node_modules/@types/lodash/ts3.1/filter.d.ts": {
+        "version": "206691a07485fae928bf1bfd5dc0f136bc5c012d8b51ad7fa0f36d1ece19365b",
+        "signature": "206691a07485fae928bf1bfd5dc0f136bc5c012d8b51ad7fa0f36d1ece19365b"
+      },
+      "./src/schemas/products/types/_common/_giftcard.js": {
+        "version": "c536f211b2e2db48bd23c00cc8168c0258002dec1f60b7df64a1af5cb70a1f90",
+        "signature": "144512d6089c7f8d46a7c34c349882d7201eb971416c723f969ec67134ebdf6e"
+      },
+      "./src/schemas/products/types/coupon/schema.js": {
+        "version": "e109578a6825748f6f1ca2beab28a80e492c781a5a6d1dd3af1e9c56b601f243",
+        "signature": "72803c925bebe1b8aef2d4e487a2f4dc83ec1163056aa9f7bc29ffa3c8e3a0c5"
+      },
+      "./src/schemas/products/types/_common/_uidefinitions.js": {
+        "version": "36339c32166a513d1f2b9dca8f76a566cc7640145206e194ed3abb4a6e18066e",
+        "signature": "71728b5086053942ff97782af9f1b24e0a911999701d2d495d4d6c850ea91291"
+      },
+      "./node_modules/@types/lodash/ts3.1/isempty.d.ts": {
+        "version": "8dcd8273655aef81be9c273e532a55f56032c7907b20f8ed4d069f7eec44ace8",
+        "signature": "8dcd8273655aef81be9c273e532a55f56032c7907b20f8ed4d069f7eec44ace8"
+      },
+      "./src/schemas/products/types/coupon/uischema.js": {
+        "version": "bdf2a71e10b9e80553cbbf1200e57e5181cf323615a850c6e333dd79a9598180",
+        "signature": "f08bcddf2549d1ed49995eca76871a3e1700b6a49fc3b9289930810cb85f0306"
+      },
+      "./src/schemas/products/types/experience/schema.js": {
+        "version": "e395ca0ab4e8fe72b326121e27f116d20a9f6d34925caa628af7d600a5a7b4dd",
+        "signature": "b987cb52294a4cc039a684cf25021c9a285c4e6e0a1200e2b456c7eafe2a3b52"
+      },
+      "./src/schemas/products/types/experience/uischema.js": {
+        "version": "ea9ad70516f2fc276099ee0c9f992f998e31682df69c4faf008bfbd38655170d",
+        "signature": "78929ee6115b9881eb41201e79704842574fa047a98ec0ac82a7ef4504c839b9"
+      },
+      "./src/schemas/products/types/insurance/schema.js": {
+        "version": "ce27ae1d418047b0d8b78287a6d278cf880499cb97e66253fc0457e4aeb27954",
+        "signature": "494a9a8d0a3799e12deb847050a294a8757319b7f5b9e4e1af5fc5b2c9acfabc"
+      },
+      "./src/schemas/products/types/insurance/uischema.js": {
+        "version": "e40425d508983f306cad8eca0cbf1f7751f89fa4916a4d1e94de8b96514f9fb3",
+        "signature": "78929ee6115b9881eb41201e79704842574fa047a98ec0ac82a7ef4504c839b9"
+      },
+      "./src/schemas/products/types/rental/schema.js": {
+        "version": "67518071f3bbfc99328172503862016dccfc3fc8e7e3d659f9e2a535437b5774",
+        "signature": "b987cb52294a4cc039a684cf25021c9a285c4e6e0a1200e2b456c7eafe2a3b52"
+      },
+      "./src/schemas/products/types/rental/uischema.js": {
+        "version": "eb621f99d7c608c53415be385d0cef3d90836f65e2eab069746a3122b0d8db8d",
+        "signature": "78929ee6115b9881eb41201e79704842574fa047a98ec0ac82a7ef4504c839b9"
+      },
+      "./src/schemas/products/types/skipass/schema.js": {
+        "version": "9004a2110412c22cca090e10c481dcccc599eaaf1452e298bff499a5161ec3d2",
+        "signature": "375282d5d4a05088b068e2ce4ad0fdf6d7d3002108f9ff70446bda186440ad2b"
+      },
+      "./src/schemas/products/types/skipass/uischema.js": {
+        "version": "4da21025686b7d56e54bf7060eef0f9027d89c6efbd8198282aabf643129c320",
+        "signature": "f08bcddf2549d1ed49995eca76871a3e1700b6a49fc3b9289930810cb85f0306"
+      },
+      "./src/schemas/products/types/snowitcard/schema.js": {
+        "version": "7becb921ce18909182aefa8d63b0cf4e6ba18d968be2286a31b7b364c2d0cd04",
+        "signature": "9744608c5e0b14ee5ee33627a9783b927ed69fb46e9ed081a35b73755165419d"
+      },
+      "./src/schemas/products/types/snowitcard/uischema.js": {
+        "version": "fb016676489c31252d675cdb970f25db16762b25de1d79ec84b5a80abafe4233",
+        "signature": "78929ee6115b9881eb41201e79704842574fa047a98ec0ac82a7ef4504c839b9"
+      },
+      "./src/schemas/products/types/bundle/schema.js": {
+        "version": "64d8679c533ed154be82ba6b3494aa8d142e7e89713e40ec508ee22bc9c2173b",
+        "signature": "b987cb52294a4cc039a684cf25021c9a285c4e6e0a1200e2b456c7eafe2a3b52"
+      },
+      "./src/schemas/products/types/bundle/uischema.js": {
+        "version": "6ae2c32fbae93b4818c61c1c8c4198ffc9db4692368e71db0293c92b01446aef",
+        "signature": "78929ee6115b9881eb41201e79704842574fa047a98ec0ac82a7ef4504c839b9"
+      },
+      "./src/schemas/products/types/lesson/constants.js": {
+        "version": "03feb3955680d9105073bd066c82831d7d2b40401827ed177107e19191c1d6d3",
+        "signature": "d4647c7b2396b7b072356ff3edd36cd177a22330773761451345c665afa47475"
+      },
+      "./src/schemas/products/types/lesson/schema.js": {
+        "version": "c73961f97360e21987ecb28000020a09965ce4618713c12a11c95be26f108ec8",
+        "signature": "b987cb52294a4cc039a684cf25021c9a285c4e6e0a1200e2b456c7eafe2a3b52"
+      },
+      "./src/schemas/products/types/lesson/uischema.js": {
+        "version": "b12d5e771253abe5cb9a308acb7ecef5b717f4a046fc89a07deec793d26a858d",
+        "signature": "78929ee6115b9881eb41201e79704842574fa047a98ec0ac82a7ef4504c839b9"
+      },
+      "./src/schemas/products/types/food/schema.js": {
+        "version": "9f2e0dde1a395401df287e65948582a0709d1b830e4efa6d10f0eecd2f7f5be1",
+        "signature": "b987cb52294a4cc039a684cf25021c9a285c4e6e0a1200e2b456c7eafe2a3b52"
+      },
+      "./src/schemas/products/types/food/uischema.js": {
+        "version": "f6127fc80a3a843a44f7805b354f611039f1a2c8fb806c1c12789e1ca6f62ce7",
+        "signature": "78929ee6115b9881eb41201e79704842574fa047a98ec0ac82a7ef4504c839b9"
+      },
+      "./src/schemas/products/types/parking/schema.js": {
+        "version": "4342bed0f54ec181e5af0b71f94ef92946df8711403a3cb47e1fc238268779ef",
+        "signature": "b987cb52294a4cc039a684cf25021c9a285c4e6e0a1200e2b456c7eafe2a3b52"
+      },
+      "./src/schemas/products/types/parking/uischema.js": {
+        "version": "2e5149cd39c383195c1582eaf85e47fb2ff9113ea93fe1a1daf49624fe4d8a26",
+        "signature": "78929ee6115b9881eb41201e79704842574fa047a98ec0ac82a7ef4504c839b9"
+      },
+      "./src/schemas/products/types/bundle/family/schema.js": {
+        "version": "3862c457749a0c387bc59e9d08793d04060200750d334bf65843c23b9b0b044f",
+        "signature": "b987cb52294a4cc039a684cf25021c9a285c4e6e0a1200e2b456c7eafe2a3b52"
+      },
+      "./src/schemas/products/types/bundle/family/uischema.js": {
+        "version": "b0678f82e8c9a109b6059aa57176fb76405b2773b60e5db694bb32d56fbc0660",
+        "signature": "78929ee6115b9881eb41201e79704842574fa047a98ec0ac82a7ef4504c839b9"
+      },
+      "./src/schemas/products/types/rental/bike/schema.js": {
+        "version": "5b28da1a6423fd16388791e8e4f0c189aa8bc336a39a0c55e0188811d6c2c4d6",
+        "signature": "b987cb52294a4cc039a684cf25021c9a285c4e6e0a1200e2b456c7eafe2a3b52"
+      },
+      "./src/schemas/products/types/rental/bike/uischema.js": {
+        "version": "331363ea7fc241ce74fb69081dee2c3d64d3caeb5f51645d8f02006d74437a79",
+        "signature": "78929ee6115b9881eb41201e79704842574fa047a98ec0ac82a7ef4504c839b9"
+      },
+      "./src/schemas/products/types/hotel/schema.js": {
+        "version": "638073d35f2592e1d5858115cd40c31d3d743865b8703aa2459400ca6e02f7ab",
+        "signature": "b987cb52294a4cc039a684cf25021c9a285c4e6e0a1200e2b456c7eafe2a3b52"
+      },
+      "./src/schemas/products/types/hotel/uischema.js": {
+        "version": "60314b144dfe909dab53941e65921e37926795c5810473a2a820ec51f7a5207c",
+        "signature": "78929ee6115b9881eb41201e79704842574fa047a98ec0ac82a7ef4504c839b9"
+      },
+      "./src/schemas/products/index.js": {
+        "version": "29f2879f43e326b8e9f8f2d9daed3337a93b488fcd2cd643e155f3f17f4cd6df",
+        "signature": "245d7f92e396f37bd37b4ed0193e38952c30db1f2550174888939f06d707886c"
+      },
+      "./src/schemas/products/details/constants.js": {
+        "version": "f13a950339f2f55836d388a048846d3d77d6cbcc8b65e828b9ef1f837fb7233e",
+        "signature": "5aeace21cab275178a256881b26440b84df782e782249c1658dad95846613d0e"
+      },
+      "./src/schemas/products/details/utils.js": {
+        "version": "55c58809c5b5a7e9d9ba4f8f3f6cba8a1b9cc9760cceaa7ce58e4fbc19b258cb",
+        "signature": "e2214406a5dd783bc416766e09960aee4406239e4c0aaa3b7ba1b4140d9438cb"
+      },
+      "./src/schemas/products/details/schema.js": {
+        "version": "d77469b3bd1a31b59ddbb15a353ffe5e1ee3ad2606d525ada04207d8ca438c4d",
+        "signature": "fa81969f8288a305ccf028d700a0a6bfeed90c641db54d69c09e004bcf05c776"
+      },
+      "./src/schemas/products/details/uischema.js": {
+        "version": "f18365fe6214edbe30df12903f09e903f4e27f8a7ca03f66cad4fac1e0d52683",
+        "signature": "90941f00c0674c65b873d2a0e20e714a80f423e54e1bc98a3364f681a3227bea"
+      },
+      "./src/schemas/products/details/index.js": {
+        "version": "1ee83e91e968442ac845d119775bcccaafb2865f1c29d940f648de80a26bf423",
+        "signature": "990725b60d36a2279f5545664c5e6fff41e46603ffa1726a489d5e3dc5fac008"
+      },
+      "./src/schemas/products/options/schema.js": {
+        "version": "ef88d7a0e63109b968d0b52ba8dec73e9d36b9332763721647067a5b9439ea0d",
+        "signature": "058f066a7ca940d9526fe366fd75f758d00bd9cd46122a52fc77d69be4153909"
+      },
+      "./src/schemas/products/options/uischema.js": {
+        "version": "2f4815b5fb00e2e5fd6b7c571242c339f09127267774a5005e21bc7145478833",
+        "signature": "78929ee6115b9881eb41201e79704842574fa047a98ec0ac82a7ef4504c839b9"
+      },
+      "./src/schemas/products/options/index.js": {
+        "version": "1ee83e91e968442ac845d119775bcccaafb2865f1c29d940f648de80a26bf423",
+        "signature": "990725b60d36a2279f5545664c5e6fff41e46603ffa1726a489d5e3dc5fac008"
+      },
+      "./src/schemas/products/prices/schema.js": {
+        "version": "e4d3b90bb6f187c4f4608d6c96ac4bec5b17c154c15ef23f2ec8b457fcc22da1",
+        "signature": "e9afa4aa398974d93d2734f17f79b71bdbb54f2c2787a5ecd18095de0b85a76c"
+      },
+      "./src/schemas/products/prices/uischema.js": {
+        "version": "1d6e5fff682e1aaf9af69c92eb10677bd5abdca90c72d1fb96513a59f8b98e98",
+        "signature": "9b5b66cf13b520f398bdad77d80a7234375cdc9b48924cd01d4c1c4c5e89e4c3"
+      },
+      "./src/schemas/products/prices/index.js": {
+        "version": "ed446d797a876740c13ed50474e1f5c67febbb9bac32d8a771d48271fdf22342",
+        "signature": "0e99f9a08d965793e91ea33b94cdda9695832b5e52ee737d77baabc2735a1fd5"
+      },
+      "./src/schemas/products/prices/copy-settings/schema.js": {
+        "version": "962eea7e4ebf7688dadf31a966a6e69980014fc88c0ee04c6c1549973b8632ad",
+        "signature": "bdfa197a1dc99af08633803d38247caa9cd131ad4a696acd132f99310820f031"
+      },
+      "./src/schemas/products/prices/copy-settings/uischema.js": {
+        "version": "6679f285c4132098ec4524d1b4886a321394da34e3866cee4dbcbd9afee4e91e",
+        "signature": "c2b5b8ec285b1d150338d833c049df749ca3a2c1e895466b19af6ba346374bea"
+      },
+      "./src/schemas/products/prices/copy-settings/index.js": {
+        "version": "1cd026456fad1e0ecc04301a17ede9a8ae167e67d1f068ed9aade8bae19c8a50",
+        "signature": "ea42b129e135ca07e11a14f957d92cab1a755ca3b1e72f5b3d1c61d1274e47dc"
+      },
+      "./src/schemas/products/slots/schema.js": {
+        "version": "5b325d157d29a79b9b01bd41683decf100c6403edd79356887648ab863cc6041",
+        "signature": "058f066a7ca940d9526fe366fd75f758d00bd9cd46122a52fc77d69be4153909"
+      },
+      "./src/schemas/products/slots/uischema.js": {
+        "version": "cac4c072105d091b9e83bc11f7a1e0e51701488c6ef3b2ece926f2601c91d0e6",
+        "signature": "78929ee6115b9881eb41201e79704842574fa047a98ec0ac82a7ef4504c839b9"
+      },
+      "./src/schemas/products/slots/index.js": {
+        "version": "1ee83e91e968442ac845d119775bcccaafb2865f1c29d940f648de80a26bf423",
+        "signature": "990725b60d36a2279f5545664c5e6fff41e46603ffa1726a489d5e3dc5fac008"
+      },
+      "./src/schemas/products/upsell/schema.js": {
+        "version": "d003cf29fcd6ab3050528302eef7c19dad16ea72a69e545970d2fbd3b4878448",
+        "signature": "c0037a8243debc410444a39d4d321c09953b4512224b39395f8da75edcecec22"
+      },
+      "./src/schemas/products/upsell/uischema.js": {
+        "version": "4e774e87015f14f4803861881e8a4d04dd60f13e535903b314e7ea5e3acffd70",
+        "signature": "21681ebcd34db47b5a6d90661a3ecd1ab11dc49deed9991716d6bc037516ccf6"
+      },
+      "./src/schemas/products/upsell/index.js": {
+        "version": "1ee83e91e968442ac845d119775bcccaafb2865f1c29d940f648de80a26bf423",
+        "signature": "990725b60d36a2279f5545664c5e6fff41e46603ffa1726a489d5e3dc5fac008"
+      },
+      "./src/schemas/seasons/schema.js": {
+        "version": "e4d99480cd26034a1f164dc22822b337a475df1577466fdfe12f01075f029568",
+        "signature": "058f066a7ca940d9526fe366fd75f758d00bd9cd46122a52fc77d69be4153909"
+      },
+      "./src/schemas/seasons/uischema.js": {
+        "version": "9e98102fe71a0b154afc81db2d5c2058d5878f5bbeed6d8b9ebbc865a5a612ce",
+        "signature": "78929ee6115b9881eb41201e79704842574fa047a98ec0ac82a7ef4504c839b9"
+      },
+      "./src/schemas/seasons/index.js": {
+        "version": "1ee83e91e968442ac845d119775bcccaafb2865f1c29d940f648de80a26bf423",
+        "signature": "990725b60d36a2279f5545664c5e6fff41e46603ffa1726a489d5e3dc5fac008"
+      },
+      "./src/schemas/tasks/categories.js": {
+        "version": "acd54ab49df723bb247afb3c9d3c9caf9cb3fbf7bf869b5d12b9950ca20435e2",
+        "signature": "a2e298d67ef9208a1edb858c0b791d8ba42ba401c150b4377e9c1a00e4c0b690"
+      },
+      "./src/schemas/tasks/tenants.js": {
+        "version": "3f42383285e5616fdf2acf365a19f6e2e992531a7818d94c163b5ea66354c84e",
+        "signature": "c155edc8d7a2fba572e444aad32eaff61e43ae447630265230c673f42a2c4dd3"
+      },
+      "./src/schemas/tasks/types.js": {
+        "version": "4cfb2f1b84d8c08035afec33902a42fa2ff363146c8eaa45baaf6dd3dc58a30f",
+        "signature": "9bc28a4633d7afcb2329dcf53c091fff167c23fc57e818c3af2bc53f368757e3"
+      },
+      "./src/schemas/tasks/schema.js": {
+        "version": "55afef10ba18dd7ebe70b3225b3a79777fccb2f6ca4d2de6d944eb38680d9690",
+        "signature": "78e53124a94b3f7acab6a9a198c0736330ab3cfd7b97a812b1e0094c7d44cb5d"
+      },
+      "./src/schemas/tasks/uischema.js": {
+        "version": "d2517696577b77afe03fe734ef4bb67619523b5d952c7ea674c73fc172b8129d",
+        "signature": "d063fe26cea4f3fcf594ba046bf896631a249c384aa842b663968f0d0e1b2214"
+      },
+      "./src/schemas/tasks/index.js": {
+        "version": "1ee83e91e968442ac845d119775bcccaafb2865f1c29d940f648de80a26bf423",
+        "signature": "990725b60d36a2279f5545664c5e6fff41e46603ffa1726a489d5e3dc5fac008"
+      },
+      "./src/schemas/users/roles.js": {
+        "version": "cf26695cc7a5377c7c993cce0acdecfdd074e5666cb4d661a4140c026b1f3f04",
+        "signature": "6adf87f3859ec4c0fc0d19c0e7a63e70acb80fe145e324edf58238b5e80deac4"
+      },
+      "./src/schemas/users/options.js": {
+        "version": "4fa6058dcb9d43a6050224ee7da173bd3fc45065ce4c46e504b7f6aaf2506a1a",
+        "signature": "bb01d26a74d134c762566b549260c4ca5801f6fd6f32c0dfedb8a1a38a15ffcf"
+      },
+      "./src/schemas/users/schema.js": {
+        "version": "73608577f7f930e1c396909730ceb80afff5097d63341f1d6b4b4204ecad3c7f",
+        "signature": "00b04cce127b9eb18c56e18c180e934cc585a0100bf69dd13b6acc0e850ad21a"
+      },
+      "./src/schemas/users/uischema.js": {
+        "version": "9af3802fb4a9f3970b4a8b4fa1a8f016a1ec74b2900d1548eec200e5652bf2ea",
+        "signature": "f7f1fa01d8efde6f22b8c0057ffa2e47e15fea3aa686ffb77350f25e3b72b036"
+      },
+      "./src/schemas/users/sendemail/constants.js": {
+        "version": "82edfdf7003657b73b31d23db33f12003e35d2ed1946277ff74532a9951c18ec",
+        "signature": "a2c47b0e92d12e00e750e6ba3b689dfdc578a565e571ff2cffd448fa2cd0e679"
+      },
+      "./src/schemas/users/sendemail/schema.js": {
+        "version": "48f6d8a32e308053f2949cbefc7ca03e87a156dbe6a5810a8c47214cbf72e912",
+        "signature": "7ea019a83f443a3876b5d7e35bed162c40fae75bb6989f98d60d8caac2192650"
+      },
+      "./src/schemas/users/sendemail/uischema.js": {
+        "version": "93921b8f6d869135f17fd091dc73ce645507cd91904ee573881a93e1cf96c78b",
+        "signature": "2f31e049d5578d2d443984dd04825a6db5a2d29818e1c70247e2a5834b794e0d"
+      },
+      "./src/schemas/users/index.js": {
+        "version": "4bd63fe4f0078404d2f51ba276f7719f03f75999c2c3217579e787ab0c28e19a",
+        "signature": "9531aa3b82777ad7cd0fea57f73b80d35ed6c34205051535e369d6a6a52c2fa2"
+      },
+      "./src/schemas/widgets/categories.js": {
+        "version": "acd54ab49df723bb247afb3c9d3c9caf9cb3fbf7bf869b5d12b9950ca20435e2",
+        "signature": "a2e298d67ef9208a1edb858c0b791d8ba42ba401c150b4377e9c1a00e4c0b690"
+      },
+      "./src/schemas/widgets/types.js": {
+        "version": "b601f2f1b58fcd69dcaf4d28865e2903126e4f4504a097646be1d2908820eba6",
+        "signature": "df248f360ee267fd51ae2efd24163ec537482c25267ce71d159d5a2acb7395d0"
+      },
+      "./src/schemas/widgets/schema.js": {
+        "version": "bf6bfdf7232613702470dc37322a335f18e40ceab4bd6cb67bb2eae86e51c3d4",
+        "signature": "0550f225676f31500f99fc9cae0f831df7c5afe9de593cd8c4e0bb599e4ad08d"
+      },
+      "./src/schemas/widgets/uischema.js": {
+        "version": "10cc6809f870e6c617ede8722298265c610561293f45f317337e7302c91e97ee",
+        "signature": "6fafd1850d853061b2ac788fb536afeb7ebc06c4584c0650e5c6af3ede829a87"
+      },
+      "./src/schemas/widgets/index.js": {
+        "version": "1ee83e91e968442ac845d119775bcccaafb2865f1c29d940f648de80a26bf423",
+        "signature": "990725b60d36a2279f5545664c5e6fff41e46603ffa1726a489d5e3dc5fac008"
       }
     },
     "options": {
@@ -68,7 +848,7 @@
         "lib.dom.d.ts"
       ],
       "module": 1,
-      "outDir": "./lib",
+      "outDir": "./dist",
       "declaration": true,
       "incremental": true,
       "resolveJsonModule": true,
@@ -105,12 +885,735 @@
         ]
       },
       "project": "./tsconfig.json",
+      "watch": true,
       "configFilePath": "./tsconfig.json"
     },
     "referencedMap": {
-      "./src/constants/products/index.ts": [
+      "./src/types/datetimes.ts": [
+        "./node_modules/moment/moment.d.ts",
+        "./src/types/firestore.ts"
+      ],
+      "./src/types/products.ts": [
+        "./src/types/firestore.ts",
+        "./src/types/utils.ts",
+        "./src/types/datetimes.ts",
+        "./src/types/providers.ts"
+      ],
+      "./src/types/cart.ts": [
+        "./src/types/utils.ts",
+        "./src/types/firestore.ts",
+        "./src/types/products.ts"
+      ],
+      "./src/types/users.ts": [
+        "./src/types/firestore.ts"
+      ],
+      "./src/types/index.ts": [
+        "./src/types/cards.ts",
+        "./src/types/cart.ts",
+        "./src/types/coupons.ts",
+        "./src/types/datetimes.ts",
+        "./src/types/firestore.ts",
         "./src/types/products.ts",
-        "./src/constants/prices/index.ts"
+        "./src/types/providers.ts",
+        "./src/types/sessions.ts",
+        "./src/types/users.ts",
+        "./src/types/utils.ts"
+      ],
+      "./src/constants/cards.ts": [
+        "./src/types/cards.ts"
+      ],
+      "./src/constants/coupons.ts": [
+        "./src/types/coupons.ts"
+      ],
+      "./src/constants/datetimes.ts": [
+        "./src/types/datetimes.ts"
+      ],
+      "./src/constants/firestore.ts": [
+        "./src/types/utils.ts",
+        "./src/types/firestore.ts"
+      ],
+      "./src/constants/products.ts": [
+        "./src/types/products.ts"
+      ],
+      "./src/constants/providers.ts": [
+        "./src/types/providers.ts"
+      ],
+      "./src/constants/sessions.ts": [
+        "./src/types/utils.ts",
+        "./src/types/sessions.ts"
+      ],
+      "./src/constants/index.ts": [
+        "./src/constants/cards.ts",
+        "./src/constants/coupons.ts",
+        "./src/constants/datetimes.ts",
+        "./src/constants/firestore.ts",
+        "./src/constants/products.ts",
+        "./src/constants/providers.ts",
+        "./src/constants/sessions.ts"
+      ],
+      "./src/index.ts": [
+        "./src/types/index.ts",
+        "./src/constants/index.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/common.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/array.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/collection.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/date.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/function.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/lang.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/math.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/number.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/object.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/seq.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/string.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/util.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/index.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts"
+      ],
+      "./src/schemas/_definitions/fulldate.js": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/moment/moment.d.ts"
+      ],
+      "./src/schemas/cards/_definitions.js": [
+        "./src/schemas/cards/constants.js"
+      ],
+      "./src/schemas/cards/formtodb.js": [
+        "./src/schemas/cards/schema.js"
+      ],
+      "./src/schemas/cards/assigncard/schema.js": [
+        "./src/schemas/cards/_definitions.js",
+        "./src/schemas/cards/constants.js"
+      ],
+      "./src/schemas/cards/assigncard/uischema.js": [
+        "./src/schemas/cards/constants.js"
+      ],
+      "./src/schemas/cards/index.js": [
+        "./src/schemas/cards/schema.js",
+        "./src/schemas/cards/uischema.js",
+        "./src/schemas/cards/assigncard/schema.js",
+        "./src/schemas/cards/assigncard/uischema.js"
+      ],
+      "./node_modules/@types/lodash/ts3.1/zipobject.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts"
+      ],
+      "./src/schemas/categories/constants.js": [
+        "./node_modules/@types/lodash/ts3.1/zipobject.d.ts"
+      ],
+      "./src/schemas/categories/schema.js": [
+        "./src/schemas/categories/constants.js",
+        "./src/schemas/widgets/tenants.js"
+      ],
+      "./src/schemas/categories/index.js": [
+        "./src/schemas/categories/schema.js",
+        "./src/schemas/categories/uischema.js"
+      ],
+      "./src/schemas/challenges/schema.js": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./src/schemas/challenges/_definitions.js",
+        "./src/schemas/challenges/types.js"
+      ],
+      "./src/schemas/challenges/uischema.js": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./src/schemas/challenges/types.js",
+        "./src/constants/index.ts"
+      ],
+      "./src/schemas/challenges/index.js": [
+        "./src/schemas/challenges/schema.js",
+        "./src/schemas/challenges/uischema.js"
+      ],
+      "./node_modules/@types/lodash/ts3.1/reduce.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts"
+      ],
+      "./src/schemas/coupons/types.js": [
+        "./node_modules/@types/lodash/ts3.1/reduce.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/range.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/map.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/without.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts"
+      ],
+      "./src/schemas/products/constants.js": [
+        "./node_modules/@types/lodash/ts3.1/range.d.ts",
+        "./node_modules/@types/lodash/ts3.1/map.d.ts",
+        "./node_modules/@types/lodash/ts3.1/without.d.ts"
+      ],
+      "./src/schemas/coupons/schema.js": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./src/schemas/coupons/types.js",
+        "./src/schemas/products/constants.js"
+      ],
+      "./src/schemas/coupons/index.js": [
+        "./src/schemas/coupons/schema.js",
+        "./src/schemas/coupons/uischema.js"
+      ],
+      "./src/schemas/coupons/batchmaking/index.js": [
+        "./src/schemas/coupons/batchmaking/schema.js",
+        "./src/schemas/coupons/batchmaking/uischema.js"
+      ],
+      "./src/schemas/coupons/import/schema.js": [
+        "./src/schemas/coupons/types.js"
+      ],
+      "./src/schemas/coupons/import/uischema.js": [
+        "./src/schemas/coupons/types.js"
+      ],
+      "./src/schemas/coupons/import/index.js": [
+        "./src/schemas/coupons/types.js",
+        "./src/schemas/coupons/import/schema.js",
+        "./src/schemas/coupons/import/uischema.js"
+      ],
+      "./src/schemas/dealerorders/index.js": [
+        "./src/schemas/dealerorders/schema.js",
+        "./src/schemas/dealerorders/uischema.js"
+      ],
+      "./node_modules/@types/lodash/ts3.1/keys.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts"
+      ],
+      "./src/schemas/discounts/types.js": [
+        "./node_modules/@types/lodash/ts3.1/reduce.d.ts",
+        "./node_modules/@types/lodash/ts3.1/keys.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/isobject.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/isfunction.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/isstring.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts"
+      ],
+      "./src/schemas/products/types/index.js": [
+        "./node_modules/@types/lodash/ts3.1/keys.d.ts",
+        "./node_modules/@types/lodash/ts3.1/map.d.ts",
+        "./node_modules/@types/lodash/ts3.1/isobject.d.ts",
+        "./node_modules/@types/lodash/ts3.1/isfunction.d.ts",
+        "./node_modules/@types/lodash/ts3.1/isstring.d.ts"
+      ],
+      "./src/schemas/discounts/schema.js": [
+        "./node_modules/@types/lodash/ts3.1/reduce.d.ts",
+        "./src/schemas/discounts/types.js",
+        "./src/schemas/products/types/index.js"
+      ],
+      "./node_modules/@types/lodash/ts3.1/chunk.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts"
+      ],
+      "./src/schemas/discounts/uischema.js": [
+        "./node_modules/@types/lodash/ts3.1/reduce.d.ts",
+        "./node_modules/@types/lodash/ts3.1/chunk.d.ts",
+        "./src/schemas/products/types/index.js"
+      ],
+      "./src/schemas/discounts/index.js": [
+        "./src/schemas/discounts/schema.js",
+        "./src/schemas/discounts/uischema.js"
+      ],
+      "./src/schemas/discounts/import/index.js": [
+        "./src/schemas/discounts/import/schema.js",
+        "./src/schemas/discounts/import/uischema.js"
+      ],
+      "./src/schemas/districtpaymentdata/index.js": [
+        "./src/schemas/districtpaymentdata/schema.js",
+        "./src/schemas/districtpaymentdata/uischema.js"
+      ],
+      "./src/schemas/districts/schema.js": [
+        "./node_modules/@types/lodash/ts3.1/reduce.d.ts",
+        "./src/schemas/products/types/index.js"
+      ],
+      "./src/schemas/districts/uischema.js": [
+        "./node_modules/@types/lodash/ts3.1/chunk.d.ts",
+        "./node_modules/@types/lodash/ts3.1/reduce.d.ts",
+        "./src/schemas/products/types/index.js"
+      ],
+      "./src/schemas/districts/index.js": [
+        "./src/schemas/districts/schema.js",
+        "./src/schemas/districts/uischema.js"
+      ],
+      "./src/schemas/districts/zones/index.js": [
+        "./src/schemas/districts/zones/schema.js",
+        "./src/schemas/districts/zones/uischema.js"
+      ],
+      "./src/schemas/orders/index.js": [
+        "./src/schemas/orders/schema.js",
+        "./src/schemas/orders/uischema.js"
+      ],
+      "./src/schemas/orders/status.js": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/first.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts"
+      ],
+      "./src/schemas/orders/bookings/schema.js": [
+        "./node_modules/@types/lodash/ts3.1/first.d.ts"
+      ],
+      "./src/schemas/orders/bookings/index.js": [
+        "./src/schemas/orders/bookings/schema.js",
+        "./src/schemas/orders/bookings/uischema.js"
+      ],
+      "./src/schemas/orders/export/index.js": [
+        "./node_modules/moment/moment.d.ts"
+      ],
+      "./src/schemas/partnerstripe/_definitions.js": [
+        "./node_modules/moment/moment.d.ts",
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./src/schemas/shared/countries.js"
+      ],
+      "./src/schemas/partnerstripe/schema.js": [
+        "./node_modules/moment/moment.d.ts",
+        "./src/schemas/partnerstripe/_definitions.js"
+      ],
+      "./src/schemas/partnerstripe/index.js": [
+        "./src/schemas/partnerstripe/schema.js",
+        "./src/schemas/partnerstripe/uischema.js",
+        "./src/schemas/partnerstripe/uischemapaymentonly.js",
+        "./src/schemas/partnerstripe/uischemadocuments.js"
+      ],
+      "./src/schemas/partners/types.js": [
+        "./node_modules/@types/lodash/ts3.1/reduce.d.ts",
+        "./node_modules/@types/lodash/ts3.1/keys.d.ts"
+      ],
+      "./src/schemas/partners/schema.js": [
+        "./node_modules/@types/lodash/ts3.1/first.d.ts",
+        "./node_modules/@types/lodash/ts3.1/without.d.ts",
+        "./src/schemas/products/types/index.js",
+        "./src/schemas/partners/types.js",
+        "./src/schemas/widgets/tenants.js",
+        "./src/schemas/partners/constants.js"
+      ],
+      "./src/schemas/partners/index.js": [
+        "./src/schemas/partners/schema.js",
+        "./src/schemas/partners/uischema.js"
+      ],
+      "./node_modules/@types/lodash/ts3.1/values.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts"
+      ],
+      "./src/schemas/partners/venues/types.js": [
+        "./node_modules/@types/lodash/ts3.1/keys.d.ts",
+        "./node_modules/@types/lodash/ts3.1/values.d.ts"
+      ],
+      "./src/schemas/partners/venues/schema.js": [
+        "./node_modules/@types/lodash/ts3.1/reduce.d.ts",
+        "./src/schemas/partners/venues/types.js"
+      ],
+      "./src/schemas/partners/venues/uischema.js": [
+        "./src/schemas/partners/venues/types.js",
+        "./node_modules/@types/lodash/ts3.1/reduce.d.ts",
+        "./node_modules/@types/lodash/ts3.1/chunk.d.ts"
+      ],
+      "./src/schemas/partners/venues/index.js": [
+        "./src/schemas/partners/venues/schema.js",
+        "./src/schemas/partners/venues/uischema.js"
+      ],
+      "./src/schemas/products/types/_common/_definitions.js": [
+        "./src/schemas/products/constants.js"
+      ],
+      "./node_modules/@types/lodash/ts3.1/each.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/filter.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts"
+      ],
+      "./src/schemas/products/types/_common/_giftcard.js": [
+        "./node_modules/@types/lodash/ts3.1/reduce.d.ts",
+        "./node_modules/@types/lodash/ts3.1/chunk.d.ts",
+        "./node_modules/@types/lodash/ts3.1/each.d.ts",
+        "./node_modules/@types/lodash/ts3.1/filter.d.ts",
+        "./src/schemas/products/types/index.js",
+        "./src/schemas/products/types/_common/_definitions.js"
+      ],
+      "./src/schemas/products/types/coupon/schema.js": [
+        "./src/schemas/products/types/_common/_definitions.js",
+        "./src/schemas/products/types/_common/_giftcard.js"
+      ],
+      "./src/schemas/products/types/_common/_uidefinitions.js": [
+        "./src/schemas/products/constants.js"
+      ],
+      "./node_modules/@types/lodash/ts3.1/isempty.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts"
+      ],
+      "./src/schemas/products/types/coupon/uischema.js": [
+        "./src/schemas/products/types/_common/_uidefinitions.js",
+        "./src/schemas/products/types/_common/_giftcard.js",
+        "./node_modules/@types/lodash/ts3.1/isempty.d.ts"
+      ],
+      "./src/schemas/products/types/experience/schema.js": [
+        "./src/schemas/products/types/_common/_definitions.js",
+        "./src/schemas/products/constants.js"
+      ],
+      "./src/schemas/products/types/experience/uischema.js": [
+        "./src/schemas/products/types/_common/_uidefinitions.js",
+        "./node_modules/@types/lodash/ts3.1/isempty.d.ts"
+      ],
+      "./src/schemas/products/types/insurance/schema.js": [
+        "./src/schemas/products/types/_common/_definitions.js",
+        "./src/schemas/products/types/index.js"
+      ],
+      "./src/schemas/products/types/insurance/uischema.js": [
+        "./src/schemas/products/types/_common/_uidefinitions.js"
+      ],
+      "./src/schemas/products/types/rental/schema.js": [
+        "./src/schemas/products/types/_common/_definitions.js",
+        "./src/schemas/products/constants.js"
+      ],
+      "./src/schemas/products/types/rental/uischema.js": [
+        "./src/schemas/products/types/_common/_uidefinitions.js",
+        "./node_modules/@types/lodash/ts3.1/isempty.d.ts"
+      ],
+      "./src/schemas/products/types/skipass/schema.js": [
+        "./src/schemas/products/types/_common/_definitions.js",
+        "./src/schemas/products/constants.js"
+      ],
+      "./src/schemas/products/types/skipass/uischema.js": [
+        "./src/schemas/products/types/_common/_uidefinitions.js",
+        "./node_modules/@types/lodash/ts3.1/isempty.d.ts"
+      ],
+      "./src/schemas/products/types/snowitcard/schema.js": [
+        "./src/schemas/products/types/_common/_definitions.js"
+      ],
+      "./src/schemas/products/types/snowitcard/uischema.js": [
+        "./src/schemas/products/types/_common/_uidefinitions.js"
+      ],
+      "./src/schemas/products/types/bundle/schema.js": [
+        "./src/schemas/products/constants.js",
+        "./src/schemas/products/types/_common/_definitions.js"
+      ],
+      "./src/schemas/products/types/bundle/uischema.js": [
+        "./src/schemas/products/types/_common/_uidefinitions.js",
+        "./node_modules/@types/lodash/ts3.1/isempty.d.ts"
+      ],
+      "./src/schemas/products/types/lesson/schema.js": [
+        "./src/schemas/products/types/_common/_definitions.js",
+        "./src/schemas/products/types/lesson/constants.js"
+      ],
+      "./src/schemas/products/types/lesson/uischema.js": [
+        "./src/schemas/products/types/_common/_uidefinitions.js",
+        "./node_modules/@types/lodash/ts3.1/isempty.d.ts"
+      ],
+      "./src/schemas/products/types/food/schema.js": [
+        "./src/schemas/products/types/_common/_definitions.js"
+      ],
+      "./src/schemas/products/types/food/uischema.js": [
+        "./src/schemas/products/types/_common/_uidefinitions.js",
+        "./node_modules/@types/lodash/ts3.1/isempty.d.ts"
+      ],
+      "./src/schemas/products/types/parking/schema.js": [
+        "./src/schemas/products/types/_common/_definitions.js"
+      ],
+      "./src/schemas/products/types/parking/uischema.js": [
+        "./src/schemas/products/types/_common/_uidefinitions.js",
+        "./node_modules/@types/lodash/ts3.1/isempty.d.ts"
+      ],
+      "./src/schemas/products/types/bundle/family/schema.js": [
+        "./src/schemas/products/constants.js",
+        "./src/schemas/products/types/_common/_definitions.js"
+      ],
+      "./src/schemas/products/types/bundle/family/uischema.js": [
+        "./src/schemas/products/types/_common/_uidefinitions.js",
+        "./node_modules/@types/lodash/ts3.1/isempty.d.ts"
+      ],
+      "./src/schemas/products/types/rental/bike/schema.js": [
+        "./src/schemas/products/types/_common/_definitions.js",
+        "./src/schemas/products/constants.js"
+      ],
+      "./src/schemas/products/types/rental/bike/uischema.js": [
+        "./src/schemas/products/types/_common/_uidefinitions.js",
+        "./node_modules/@types/lodash/ts3.1/isempty.d.ts"
+      ],
+      "./src/schemas/products/types/hotel/schema.js": [
+        "./src/schemas/products/types/_common/_definitions.js"
+      ],
+      "./src/schemas/products/types/hotel/uischema.js": [
+        "./src/schemas/products/types/_common/_uidefinitions.js",
+        "./node_modules/@types/lodash/ts3.1/isempty.d.ts"
+      ],
+      "./src/schemas/products/index.js": [
+        "./src/schemas/products/types/coupon/schema.js",
+        "./src/schemas/products/types/coupon/uischema.js",
+        "./src/schemas/products/types/experience/schema.js",
+        "./src/schemas/products/types/experience/uischema.js",
+        "./src/schemas/products/types/insurance/schema.js",
+        "./src/schemas/products/types/insurance/uischema.js",
+        "./src/schemas/products/types/rental/schema.js",
+        "./src/schemas/products/types/rental/uischema.js",
+        "./src/schemas/products/types/skipass/schema.js",
+        "./src/schemas/products/types/skipass/uischema.js",
+        "./src/schemas/products/types/snowitcard/schema.js",
+        "./src/schemas/products/types/snowitcard/uischema.js",
+        "./src/schemas/products/types/bundle/schema.js",
+        "./src/schemas/products/types/bundle/uischema.js",
+        "./src/schemas/products/types/lesson/schema.js",
+        "./src/schemas/products/types/lesson/uischema.js",
+        "./src/schemas/products/types/food/schema.js",
+        "./src/schemas/products/types/food/uischema.js",
+        "./src/schemas/products/types/parking/schema.js",
+        "./src/schemas/products/types/parking/uischema.js",
+        "./src/schemas/products/types/bundle/family/schema.js",
+        "./src/schemas/products/types/bundle/family/uischema.js",
+        "./src/schemas/products/types/rental/bike/schema.js",
+        "./src/schemas/products/types/rental/bike/uischema.js",
+        "./src/schemas/products/types/hotel/schema.js",
+        "./src/schemas/products/types/hotel/uischema.js"
+      ],
+      "./src/schemas/products/details/utils.js": [
+        "./node_modules/@types/lodash/ts3.1/reduce.d.ts",
+        "./src/schemas/products/details/constants.js"
+      ],
+      "./src/schemas/products/details/schema.js": [
+        "./node_modules/@types/lodash/ts3.1/keys.d.ts",
+        "./node_modules/@types/lodash/ts3.1/map.d.ts",
+        "./src/schemas/products/details/constants.js",
+        "./src/schemas/products/details/utils.js"
+      ],
+      "./src/schemas/products/details/index.js": [
+        "./src/schemas/products/details/schema.js",
+        "./src/schemas/products/details/uischema.js"
+      ],
+      "./src/schemas/products/options/schema.js": [
+        "./src/schemas/products/types/index.js"
+      ],
+      "./src/schemas/products/options/index.js": [
+        "./src/schemas/products/options/schema.js",
+        "./src/schemas/products/options/uischema.js"
+      ],
+      "./src/schemas/products/prices/schema.js": [
+        "./src/schemas/products/constants.js"
+      ],
+      "./src/schemas/products/prices/uischema.js": [
+        "./node_modules/moment/moment.d.ts"
+      ],
+      "./src/schemas/products/prices/index.js": [
+        "./src/schemas/products/prices/schema.js",
+        "./src/schemas/products/prices/uischema.js"
+      ],
+      "./src/schemas/products/prices/copy-settings/index.js": [
+        "./src/schemas/products/prices/copy-settings/schema.js",
+        "./src/schemas/products/prices/copy-settings/uischema.js"
+      ],
+      "./src/schemas/products/slots/index.js": [
+        "./src/schemas/products/slots/schema.js",
+        "./src/schemas/products/slots/uischema.js"
+      ],
+      "./src/schemas/products/upsell/schema.js": [
+        "./src/schemas/products/types/index.js"
+      ],
+      "./src/schemas/products/upsell/index.js": [
+        "./src/schemas/products/upsell/schema.js",
+        "./src/schemas/products/upsell/uischema.js"
+      ],
+      "./src/schemas/seasons/index.js": [
+        "./src/schemas/seasons/schema.js",
+        "./src/schemas/seasons/uischema.js"
+      ],
+      "./src/schemas/tasks/types.js": [
+        "./src/schemas/products/types/index.js"
+      ],
+      "./src/schemas/tasks/schema.js": [
+        "./src/schemas/tasks/categories.js",
+        "./src/schemas/tasks/tenants.js",
+        "./src/schemas/tasks/types.js"
+      ],
+      "./src/schemas/tasks/index.js": [
+        "./src/schemas/tasks/schema.js",
+        "./src/schemas/tasks/uischema.js"
+      ],
+      "./src/schemas/users/roles.js": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts"
+      ],
+      "./src/schemas/users/options.js": [
+        "./node_modules/@types/lodash/ts3.1/keys.d.ts"
+      ],
+      "./src/schemas/users/schema.js": [
+        "./src/schemas/users/roles.js",
+        "./src/schemas/users/options.js",
+        "./node_modules/@types/lodash/ts3.1/keys.d.ts",
+        "./node_modules/@types/lodash/ts3.1/values.d.ts",
+        "./node_modules/@types/lodash/ts3.1/reduce.d.ts"
+      ],
+      "./src/schemas/users/sendemail/schema.js": [
+        "./src/schemas/users/sendemail/constants.js"
+      ],
+      "./src/schemas/users/index.js": [
+        "./src/schemas/users/schema.js",
+        "./src/schemas/users/uischema.js",
+        "./src/schemas/users/sendemail/schema.js",
+        "./src/schemas/users/sendemail/uischema.js"
+      ],
+      "./src/schemas/widgets/schema.js": [
+        "./src/schemas/widgets/categories.js",
+        "./src/schemas/widgets/tenants.js",
+        "./src/schemas/widgets/types.js"
+      ],
+      "./src/schemas/widgets/index.js": [
+        "./src/schemas/widgets/schema.js",
+        "./src/schemas/widgets/uischema.js"
       ]
     },
     "exportedModulesMap": {
@@ -185,6 +1688,300 @@
         "./node_modules/@types/node/ts3.2/fs.d.ts",
         "./node_modules/@types/node/util.d.ts",
         "./node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "./src/types/datetimes.ts": [
+        "./node_modules/moment/moment.d.ts",
+        "./src/types/firestore.ts"
+      ],
+      "./src/types/products.ts": [
+        "./src/types/providers.ts",
+        "./src/types/firestore.ts",
+        "./src/types/utils.ts",
+        "./src/types/datetimes.ts"
+      ],
+      "./src/types/cart.ts": [
+        "./src/types/firestore.ts",
+        "./src/types/products.ts",
+        "./src/types/utils.ts"
+      ],
+      "./src/types/users.ts": [
+        "./src/types/firestore.ts"
+      ],
+      "./src/types/index.ts": [
+        "./src/types/cards.ts",
+        "./src/types/cart.ts",
+        "./src/types/coupons.ts",
+        "./src/types/datetimes.ts",
+        "./src/types/firestore.ts",
+        "./src/types/products.ts",
+        "./src/types/providers.ts",
+        "./src/types/users.ts",
+        "./src/types/utils.ts"
+      ],
+      "./src/constants/cards.ts": [
+        "./src/types/cards.ts"
+      ],
+      "./src/constants/coupons.ts": [
+        "./src/types/coupons.ts"
+      ],
+      "./src/constants/datetimes.ts": [
+        "./src/types/datetimes.ts"
+      ],
+      "./src/constants/firestore.ts": [
+        "./src/types/firestore.ts",
+        "./src/types/utils.ts"
+      ],
+      "./src/constants/products.ts": [
+        "./src/types/products.ts"
+      ],
+      "./src/constants/providers.ts": [
+        "./src/types/providers.ts"
+      ],
+      "./src/constants/sessions.ts": [
+        "./src/types/sessions.ts",
+        "./src/types/utils.ts"
+      ],
+      "./src/constants/index.ts": [
+        "./src/constants/cards.ts",
+        "./src/constants/coupons.ts",
+        "./src/constants/datetimes.ts",
+        "./src/constants/firestore.ts",
+        "./src/constants/products.ts",
+        "./src/constants/providers.ts"
+      ],
+      "./src/index.ts": [
+        "./src/types/index.ts",
+        "./src/constants/index.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/common.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/array.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/collection.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/date.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/function.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/lang.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/math.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/number.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/object.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/seq.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/string.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/common/util.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/index.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+        "./node_modules/@types/lodash/ts3.1/common/util.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/zipobject.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts"
+      ],
+      "./src/schemas/categories/constants.js": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/reduce.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/range.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/map.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/without.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/keys.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/isobject.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/isfunction.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/isstring.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/chunk.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/first.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/values.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/each.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/filter.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts"
+      ],
+      "./node_modules/@types/lodash/ts3.1/isempty.d.ts": [
+        "./node_modules/@types/lodash/ts3.1/index.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -200,9 +1997,204 @@
       "./node_modules/typescript/lib/lib.es2015.reflect.d.ts",
       "./node_modules/typescript/lib/lib.es2015.symbol.d.ts",
       "./node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
-      "./src/constants/prices/index.ts",
+      "./src/types/cards.ts",
+      "./src/types/utils.ts",
+      "./src/types/firestore.ts",
+      "./node_modules/moment/moment.d.ts",
+      "./src/types/datetimes.ts",
+      "./src/types/providers.ts",
       "./src/types/products.ts",
-      "./src/constants/products/index.ts"
+      "./src/types/cart.ts",
+      "./src/types/coupons.ts",
+      "./src/types/sessions.ts",
+      "./src/types/users.ts",
+      "./src/types/index.ts",
+      "./src/constants/cards.ts",
+      "./src/constants/coupons.ts",
+      "./src/constants/datetimes.ts",
+      "./src/constants/firestore.ts",
+      "./src/constants/products.ts",
+      "./src/constants/providers.ts",
+      "./src/index.ts",
+      "./node_modules/@types/lodash/ts3.1/common/common.d.ts",
+      "./node_modules/@types/lodash/ts3.1/common/array.d.ts",
+      "./node_modules/@types/lodash/ts3.1/common/collection.d.ts",
+      "./node_modules/@types/lodash/ts3.1/common/date.d.ts",
+      "./node_modules/@types/lodash/ts3.1/common/function.d.ts",
+      "./node_modules/@types/lodash/ts3.1/common/lang.d.ts",
+      "./node_modules/@types/lodash/ts3.1/common/math.d.ts",
+      "./node_modules/@types/lodash/ts3.1/common/number.d.ts",
+      "./node_modules/@types/lodash/ts3.1/common/object.d.ts",
+      "./node_modules/@types/lodash/ts3.1/common/seq.d.ts",
+      "./node_modules/@types/lodash/ts3.1/common/string.d.ts",
+      "./node_modules/@types/lodash/ts3.1/common/util.d.ts",
+      "./node_modules/@types/lodash/ts3.1/index.d.ts",
+      "./src/schemas/_definitions/fulldate.js",
+      "./src/schemas/cards/constants.js",
+      "./src/schemas/cards/_definitions.js",
+      "./src/schemas/cards/dbtoform.js",
+      "./src/schemas/cards/schema.js",
+      "./src/schemas/cards/formtodb.js",
+      "./src/schemas/cards/uischema.js",
+      "./src/schemas/cards/assigncard/schema.js",
+      "./src/schemas/cards/assigncard/uischema.js",
+      "./src/schemas/cards/index.js",
+      "./node_modules/@types/lodash/ts3.1/zipobject.d.ts",
+      "./src/schemas/categories/constants.js",
+      "./src/schemas/widgets/tenants.js",
+      "./src/schemas/categories/schema.js",
+      "./src/schemas/categories/uischema.js",
+      "./src/schemas/categories/index.js",
+      "./src/schemas/challenges/_definitions.js",
+      "./src/schemas/challenges/types.js",
+      "./src/schemas/challenges/schema.js",
+      "./src/schemas/challenges/uischema.js",
+      "./src/schemas/challenges/index.js",
+      "./node_modules/@types/lodash/ts3.1/reduce.d.ts",
+      "./src/schemas/coupons/types.js",
+      "./node_modules/@types/lodash/ts3.1/range.d.ts",
+      "./node_modules/@types/lodash/ts3.1/map.d.ts",
+      "./node_modules/@types/lodash/ts3.1/without.d.ts",
+      "./src/schemas/products/constants.js",
+      "./src/schemas/coupons/schema.js",
+      "./src/schemas/coupons/uischema.js",
+      "./src/schemas/coupons/index.js",
+      "./src/schemas/coupons/batchmaking/schema.js",
+      "./src/schemas/coupons/batchmaking/uischema.js",
+      "./src/schemas/coupons/batchmaking/index.js",
+      "./src/schemas/coupons/import/schema.js",
+      "./src/schemas/coupons/import/uischema.js",
+      "./src/schemas/coupons/import/index.js",
+      "./src/schemas/dealerorders/schema.js",
+      "./src/schemas/dealerorders/uischema.js",
+      "./src/schemas/dealerorders/index.js",
+      "./node_modules/@types/lodash/ts3.1/keys.d.ts",
+      "./src/schemas/discounts/types.js",
+      "./node_modules/@types/lodash/ts3.1/isobject.d.ts",
+      "./node_modules/@types/lodash/ts3.1/isfunction.d.ts",
+      "./node_modules/@types/lodash/ts3.1/isstring.d.ts",
+      "./src/schemas/products/types/index.js",
+      "./src/schemas/discounts/schema.js",
+      "./node_modules/@types/lodash/ts3.1/chunk.d.ts",
+      "./src/schemas/discounts/uischema.js",
+      "./src/schemas/discounts/index.js",
+      "./src/schemas/discounts/import/schema.js",
+      "./src/schemas/discounts/import/uischema.js",
+      "./src/schemas/discounts/import/index.js",
+      "./src/schemas/districtpaymentdata/schema.js",
+      "./src/schemas/districtpaymentdata/uischema.js",
+      "./src/schemas/districtpaymentdata/index.js",
+      "./src/schemas/districts/schema.js",
+      "./src/schemas/districts/uischema.js",
+      "./src/schemas/districts/index.js",
+      "./src/schemas/districts/utils.js",
+      "./src/schemas/districts/zones/schema.js",
+      "./src/schemas/districts/zones/uischema.js",
+      "./src/schemas/districts/zones/index.js",
+      "./src/schemas/orders/schema.js",
+      "./src/schemas/orders/uischema.js",
+      "./src/schemas/orders/index.js",
+      "./src/schemas/orders/status.js",
+      "./node_modules/@types/lodash/ts3.1/first.d.ts",
+      "./src/schemas/orders/bookings/schema.js",
+      "./src/schemas/orders/bookings/uischema.js",
+      "./src/schemas/orders/bookings/index.js",
+      "./src/schemas/orders/export/index.js",
+      "./src/schemas/shared/countries.js",
+      "./src/schemas/partnerstripe/_definitions.js",
+      "./src/schemas/partnerstripe/schema.js",
+      "./src/schemas/partnerstripe/uischema.js",
+      "./src/schemas/partnerstripe/uischemapaymentonly.js",
+      "./src/schemas/partnerstripe/uischemadocuments.js",
+      "./src/schemas/partnerstripe/index.js",
+      "./src/schemas/partners/constants.js",
+      "./src/schemas/partners/types.js",
+      "./src/schemas/partners/schema.js",
+      "./src/schemas/partners/uischema.js",
+      "./src/schemas/partners/index.js",
+      "./node_modules/@types/lodash/ts3.1/values.d.ts",
+      "./src/schemas/partners/venues/types.js",
+      "./src/schemas/partners/venues/schema.js",
+      "./src/schemas/partners/venues/uischema.js",
+      "./src/schemas/partners/venues/index.js",
+      "./src/schemas/products/types/_common/_definitions.js",
+      "./node_modules/@types/lodash/ts3.1/each.d.ts",
+      "./node_modules/@types/lodash/ts3.1/filter.d.ts",
+      "./src/schemas/products/types/_common/_giftcard.js",
+      "./src/schemas/products/types/coupon/schema.js",
+      "./src/schemas/products/types/_common/_uidefinitions.js",
+      "./node_modules/@types/lodash/ts3.1/isempty.d.ts",
+      "./src/schemas/products/types/coupon/uischema.js",
+      "./src/schemas/products/types/experience/schema.js",
+      "./src/schemas/products/types/experience/uischema.js",
+      "./src/schemas/products/types/insurance/schema.js",
+      "./src/schemas/products/types/insurance/uischema.js",
+      "./src/schemas/products/types/rental/schema.js",
+      "./src/schemas/products/types/rental/uischema.js",
+      "./src/schemas/products/types/skipass/schema.js",
+      "./src/schemas/products/types/skipass/uischema.js",
+      "./src/schemas/products/types/snowitcard/schema.js",
+      "./src/schemas/products/types/snowitcard/uischema.js",
+      "./src/schemas/products/types/bundle/schema.js",
+      "./src/schemas/products/types/bundle/uischema.js",
+      "./src/schemas/products/types/lesson/constants.js",
+      "./src/schemas/products/types/lesson/schema.js",
+      "./src/schemas/products/types/lesson/uischema.js",
+      "./src/schemas/products/types/food/schema.js",
+      "./src/schemas/products/types/food/uischema.js",
+      "./src/schemas/products/types/parking/schema.js",
+      "./src/schemas/products/types/parking/uischema.js",
+      "./src/schemas/products/types/bundle/family/schema.js",
+      "./src/schemas/products/types/bundle/family/uischema.js",
+      "./src/schemas/products/types/rental/bike/schema.js",
+      "./src/schemas/products/types/rental/bike/uischema.js",
+      "./src/schemas/products/types/hotel/schema.js",
+      "./src/schemas/products/types/hotel/uischema.js",
+      "./src/schemas/products/index.js",
+      "./src/schemas/products/details/constants.js",
+      "./src/schemas/products/details/utils.js",
+      "./src/schemas/products/details/schema.js",
+      "./src/schemas/products/details/uischema.js",
+      "./src/schemas/products/details/index.js",
+      "./src/schemas/products/options/schema.js",
+      "./src/schemas/products/options/uischema.js",
+      "./src/schemas/products/options/index.js",
+      "./src/schemas/products/prices/schema.js",
+      "./src/schemas/products/prices/uischema.js",
+      "./src/schemas/products/prices/index.js",
+      "./src/schemas/products/prices/copy-settings/schema.js",
+      "./src/schemas/products/prices/copy-settings/uischema.js",
+      "./src/schemas/products/prices/copy-settings/index.js",
+      "./src/schemas/products/slots/schema.js",
+      "./src/schemas/products/slots/uischema.js",
+      "./src/schemas/products/slots/index.js",
+      "./src/schemas/products/upsell/schema.js",
+      "./src/schemas/products/upsell/uischema.js",
+      "./src/schemas/products/upsell/index.js",
+      "./src/schemas/seasons/schema.js",
+      "./src/schemas/seasons/uischema.js",
+      "./src/schemas/seasons/index.js",
+      "./src/schemas/tasks/categories.js",
+      "./src/schemas/tasks/tenants.js",
+      "./src/schemas/tasks/types.js",
+      "./src/schemas/tasks/schema.js",
+      "./src/schemas/tasks/uischema.js",
+      "./src/schemas/tasks/index.js",
+      "./src/schemas/users/roles.js",
+      "./src/schemas/users/options.js",
+      "./src/schemas/users/schema.js",
+      "./src/schemas/users/uischema.js",
+      "./src/schemas/users/sendemail/constants.js",
+      "./src/schemas/users/sendemail/schema.js",
+      "./src/schemas/users/sendemail/uischema.js",
+      "./src/schemas/users/index.js",
+      "./src/schemas/widgets/categories.js",
+      "./src/schemas/widgets/types.js",
+      "./src/schemas/widgets/schema.js",
+      "./src/schemas/widgets/uischema.js",
+      "./src/schemas/widgets/index.js",
+      "./src/constants/sessions.ts",
+      "./src/constants/index.ts"
     ]
   },
   "version": "3.8.3"
