@@ -4,8 +4,10 @@
   "version": "0.0.2",
   "main": "dist/index.js",
   "types": "dist.index.d.ts",
-  "private": true,
+  "private": false,
+  "license": "UNLICENSED",
   "scripts": {
+    "publish": "npm --registry https://snowit.bytesafe.dev/r/default publish --access restricted '@snowit/schemas'",
     "cm": "git-cz",
     "lint": "yarn lint:js && yarn lint:ts",
     "lint:js": "yarn eslint '{src}/**/*.js'",
