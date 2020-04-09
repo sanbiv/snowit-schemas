@@ -19,7 +19,7 @@
     "**/.hg": true,
     "**/CVS": true,
     "**/.DS_Store": true,
-    "**/dist/*": true
+    "**/dist/*": false
   },
   "files.watcherExclude": {
     "**/.git/objects/**": true,

@@ -1,4 +1,4 @@
-# VERSIONE 0.0.2
+# VERSIONE 0.0.3
 
 
 ### Installazione
