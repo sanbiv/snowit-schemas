@@ -1,14 +1,14 @@
 {
   "name": "@snowit/schemas",
-  "homepage": "https://snowitexperience.com",
+  "homepage": "https://bitbucket.org/snowitdev/schemas#readme",
   "version": "0.0.2",
   "main": "dist/index.js",
   "types": "dist.index.d.ts",
-  "private": false,
   "license": "UNLICENSED",
+  "private": false,
   "scripts": {
-    "publish": "npm --registry https://snowit.bytesafe.dev/r/default publish --access restricted '@snowit/schemas'",
     "cm": "git-cz",
+    "deploy": "yarn clean && yarn build && npm --registry=https://snowit.bytesafe.dev/r/default --access=restricted publish",
     "lint": "yarn lint:js && yarn lint:ts",
     "lint:js": "yarn eslint '{src}/**/*.js'",
     "lint:ts": "yarn tslint --project tsconfig.json --config tslint.json",
@@ -16,12 +16,16 @@
     "lint:fix:ts": "yarn tslint --config tslint.json --fix --project tsconfig.json",
     "build": "yarn tsc -p tsconfig.json",
     "build:watch": "yarn tsc -p tsconfig.json --watch",
-    "clean": "rm -rf lib",
+    "clean": "rm -rf dist",
     "prepare": "yarn clean && yarn build"
   },
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org:snowitdev/schemas.git"
+    "url": "git+ssh://git@bitbucket.org/snowitdev/schemas.git"
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://snowit.bytesafe.dev/r/default"
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
@@ -84,5 +88,7 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "description": "Common types, schemas & configs for snowit apps",
+  "author": "Snowit"
 }
