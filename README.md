@@ -14,7 +14,7 @@ Il pacchetto può essere installato via git o registro privato su snowit.bytesaf
     }
   }
 
-  // Installazione tramite private register
+  // Installazione tramite private register (vedi dettagli 'Associating a scope with a registry')
   {
     "dependencies": {
       "@snowit/schemas": "{{VERSION}}"
@@ -39,7 +39,7 @@ Esempio di alcuni tipi più usati
 ```
 
 
-### CONFIGURAZIONE
+### CONFIGURAZIONI/COSTANTI
 E' possibile importare i tipi dal seguente percorso: `@snowit/schemas/dist/constants`
 
 
@@ -89,5 +89,25 @@ Esempio
 * Per eseguire il commit lanciare il comando "yarn cm"
 * Cambiare il numero di versione in package.json formato `1.0.1`
 * Inserire il tag con numero versione, esempio: `git tag -a v1.0.1 -m 'Version 1.0.1'`
-* Eseguire il push indicando --tags (`git push origin master --tags`) 
+* Eseguire il push indicando --tags (`git push origin master --tags`)
+* Pubblicare la libreria sul registro privato: `yarn deploy`
 
+# Link e maggiori informazioni
+
+* https://bytesafe.dev/posts/using-bytesafe-the-basics/
+* I dati di accesso su `snowit.bytesafe.dev` sono: username=`bytesafe` password=recuperala accedendo su https://snowit.bytesafe.dev/
+
+# Associating a scope with a registry
+Scopes can be associated with a separate registry. This allows you to seamlessly use a mix of packages from the primary npm registry and one or more private registries, such as npm Enterprise.
+
+You can associate a scope with a registry at login, e.g.
+
+`npm login --registry=https://snowit.bytesafe.dev/r/default --scope=@snowit`
+
+Scopes have a many-to-one relationship with registries: one registry can host multiple scopes, but a scope only ever points to one registry.
+
+You can also associate a scope with a registry using npm config:
+
+`npm config set @snowit:registry https://snowit.bytesafe.dev/r/default`
+
+Once a scope is associated with a registry, any npm install for a package with that scope will request packages from that registry instead. Any npm publish for a package name that contains the scope will be published to that registry instead.
